@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-spacer {
+    flex: 1 1 auto;
+}
+
+h1.page-title {
+    text-align: center;
+    color: #ff4081
+}
+
+h2.page-subtitle {
+    text-align: center;
+    color: #596275
+}
+
+div.page-content {
+    width: 98%;
+    margin: auto;
+}
+
+p.reference {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 50px;
+}

@@ -1,0 +1,76 @@
+<h1 class="page-title" i18n>Brazilian Table of Food Composition</h1>
+<h2 class="page-subtitle" i18n>Version 4</h2>
+<div class="page-content">
+  <mat-form-field>
+    <mat-label i18n>Select an category</mat-label>
+    <mat-select [(value)]="selectedCategory" (selectionChange)="selectCategory()">
+      <mat-option i18n>None</mat-option>
+      <mat-option *ngFor="let item of categories" [value]="item.category">{{item.category}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput (keyup)="filterData($event.target.value)" i18n-placeholder placeholder="Filter">
+  </mat-form-field>
+  
+  <div class="food-table-container mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort>
+  
+      <!-- ID Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>ID</th>
+        <td mat-cell *matCellDef="let row">{{row.id}}</td>
+      </ng-container>
+  
+      <!-- Description Column -->
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Description</th>
+        <td mat-cell *matCellDef="let row">{{row.description}}</td>
+      </ng-container>
+  
+      <!-- Calorie Column -->
+      <ng-container matColumnDef="energy_kcal">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Energy (kcal)</th>
+        <td mat-cell *matCellDef="let row">{{isString(row.energy_kcal) ? row.energy_kcal : (row.energy_kcal | number:'1.0-2')}}</td>
+      </ng-container>
+  
+      <!-- Lipid Column -->
+      <ng-container matColumnDef="lipid_g">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Lipid (g)</th>
+        <td mat-cell *matCellDef="let row">{{isString(row.lipid_g) ? row.lipid_g : (row.lipid_g | number:'1.0-2')}}</td>
+      </ng-container>
+  
+      <!-- Protein Column -->
+      <ng-container matColumnDef="protein_g">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Protein (g)</th>
+        <td mat-cell *matCellDef="let row">{{isString(row.protein_g) ? row.protein_g : (row.protein_g | number:'1.0-2') }}</td>
+      </ng-container>
+  
+      <!-- Carbohydrate Column -->
+      <ng-container matColumnDef="carbohydrate_g">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Carbohydrate (g)</th>
+        <td mat-cell *matCellDef="let row">{{isString(row.carbohydrate_g) ? row.carbohydrate_g : (row.carbohydrate_g | number:'1.0-2')}}</td>
+      </ng-container>
+
+      <!-- Actions Column -->
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Actions</th>
+        <td mat-cell *matCellDef="let row">
+          <button mat-icon-button (click)="onView(row)" i18n-matTooltip matTooltip="View information">
+            <mat-icon aria-hidden="false">list</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+      </tr>
+    </table>
+  
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+  </div>
+
+  <p class="reference" i18n>
+    Reference: The University of Campinas (UNICAMP), 2011, Brazilian Table of Food Composition, 4 ed., 161p. Available in: <a href="https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela" target="_blank">https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela</a> Access in: 20 May 2021, 12:00:00.
+  </p>
+</div>
