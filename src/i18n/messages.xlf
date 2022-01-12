@@ -9,197 +9,428 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="536da599bf412a314c3698a840c85a46b7eb391c" datatype="html">
+        <source>Food Comparison</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
         <source>About</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="845db3ff3b8bd513f3fcbcb82a6a5aeb7f559fd7" datatype="html">
-        <source>Humidity (%):</source>
+      <trans-unit id="757aef87bcce1d1d3848804f5fb8d6546c1962de" datatype="html">
+        <source>Humidity (%)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="29ede67240f19bf3aed754157d01892fea9dc896" datatype="html">
-        <source>Energy (kcal):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="284499331fa6f369bef86da58ce702a145585b1d" datatype="html">
-        <source>Energy (kj):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9cb8b1b35e3485d6048a65b59b5a7f0a4989a7da" datatype="html">
-        <source>Protein (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">301</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="b65410d6a990ed3316f33131ec5ac0de7103dc4f" datatype="html">
-        <source>Lipid (g):</source>
+      <trans-unit id="c559ed25f2ad8b34bcaeb7130e0187aeb2ad56d2" datatype="html">
+        <source>Energy (kcal)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d25da7c70375125562455255428e3ac262f9358" datatype="html">
+        <source>Energy (kj)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25271804e39e32cc48c72d1920013bfe7b80c7c6" datatype="html">
+        <source>Protein (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">313</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b21e67a97e211d8786f61c0b5183874cfd0474a6" datatype="html">
+        <source>Lipid (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="508860e490d72219f135d9a9cdae972298419698" datatype="html">
+        <source>Cholesterol (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="2ff66c23f01110c1c9d441b67bae20a5ed48a7e3" datatype="html">
-        <source>Cholesterol (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="783ee1c4878f6bde98c21fee92609de3d6bc567b" datatype="html">
-        <source>Carbohydrate (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="d54252410cd26c3ca6c9631fa2106e82e041b377" datatype="html">
-        <source>Fiber (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">321</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="959a379d14875d84a0f90e2c152eb89142c97963" datatype="html">
-        <source>Ashes (g):</source>
+      <trans-unit id="d85465e27177d6bee92ff3d5b328ea844fb0c91f" datatype="html">
+        <source>Carbohydrate (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">325</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c7b1dfc67536033f29e912a08e2a76361a433a1" datatype="html">
+        <source>Fiber (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">329</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce1cd3937cea8c9531596575c726b52ac9a2e7c4" datatype="html">
+        <source>Ashes (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">333</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c302f46b20cc9886dc038e00debde7d136e0b562" datatype="html">
+        <source>Calcium (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">337</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82bd28a30b53eb4b25debe63fa5786bf811854a4" datatype="html">
+        <source>Magnesium (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="792e53d49c4314a5ee90de41faeecbaf904e784e" datatype="html">
-        <source>Calcium (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">341</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b618a30a9f1642ebd4b19bc802a08cf289c2d1d3" datatype="html">
-        <source>Magnesium (mg):</source>
+      <trans-unit id="1320c10340079b1c1eef0715aed553dc4152360d" datatype="html">
+        <source>Manganese (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">345</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="15aa798aaf8c892f6296cb5888fba5382de12cef" datatype="html">
-        <source>Manganese (mg):</source>
+      <trans-unit id="499a213487bc8122dd79b6dc2a015ea855b0a7ae" datatype="html">
+        <source>Phosphorus (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">349</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f076fdf1e4aa2830157cd20dde5bc3c944222588" datatype="html">
-        <source>Phosphorus (mg):</source>
+      <trans-unit id="06667f9940401750c4714c65b036c106691b33a0" datatype="html">
+        <source>Iron (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">353</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="737d150ced54eaf6adc9f217c99eb942f4d39e62" datatype="html">
+        <source>Sodium (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">357</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3a1a08939012ce1d8b3202766e5f03d608e5c1f" datatype="html">
+        <source>Potassium (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">68</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="2b34059c979dded944e6af43f01f522b7e493f21" datatype="html">
-        <source>Iron (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">361</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dc69969379712d2adfbdc05d743dd1836953417f" datatype="html">
-        <source>Sodium (mg):</source>
+      <trans-unit id="3c56eb005520690def9eda36fbcf18c7532ecb2f" datatype="html">
+        <source>Copper (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">365</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="05f106360c1b99e0b44a60d5c01aed234d2219c1" datatype="html">
-        <source>Potassium (mg):</source>
+      <trans-unit id="61d3260e3a2b7c889c32ab5d10e879815c861f83" datatype="html">
+        <source>Zinc (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">369</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cfb615ccba76c18d98d1a8d63fd344a685e35c10" datatype="html">
-        <source>Copper (mg):</source>
+      <trans-unit id="baf85cac2de1bb411dd3b55b3dad2538e7d9f7ad" datatype="html">
+        <source>Retinol (mcg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">373</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14b84cccf3c6b3e72e2370b325e2eb8afaebef9a" datatype="html">
+        <source>RE (mcg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">377</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa798cdffad78d13b9ec4a42e365ad4dab7768bc" datatype="html">
+        <source>RAE (mcg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">88</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="6e00831e92bf1b62fb46854d98f96088f297ecb2" datatype="html">
-        <source>Zinc (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">381</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="24cf6a41379d8464c49ee5ed32c0cdee02ddb96d" datatype="html">
-        <source>Retinol (mcg):</source>
+      <trans-unit id="19f8b0c700003f559744008d2a537f958baefb7c" datatype="html">
+        <source>Thiamine (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">385</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7f0d1cbf316714890d3896e710fcb9161d6cd509" datatype="html">
-        <source>RE (mcg):</source>
+      <trans-unit id="87701211bf7acc5561b718d54cd6e0a0f720db82" datatype="html">
+        <source>Riboflavin (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">389</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="992ed842e12834ea543be4dad731fb564c2f70eb" datatype="html">
-        <source>RAE (mcg):</source>
+      <trans-unit id="0dce16d297bad0134295fc7d981a94aaaf9a5f55" datatype="html">
+        <source>Pyridoxine (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">393</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15a6b55dba9b4e8cad8285c797c1ab0f33b966d7" datatype="html">
+        <source>Niacin (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d90b5345f794cc2dded7a0dd39bc07f7d7651e0" datatype="html">
+        <source>Vitamin C (mg)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">108</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="6c9b2a9a1ece41062b0be4e37107c7eab638f503" datatype="html">
-        <source>Thiamine (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">98</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="382429e946e4895337256c84230cf77fad13d4d7" datatype="html">
-        <source>Riboflavin (mg):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">118</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4bd03bc42c0d32992654729563a9dab243dbab50" datatype="html">
-        <source>Pyridoxine (mg):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">123</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f58f38181ebcccc4db182b6781b5642064db307e" datatype="html">
-        <source>Niacin (mg):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">128</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4b53f9f1adafc85fe30c4aca55a23696fd6c18b4" datatype="html">
-        <source>Vitamin C (mg):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">133</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">401</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3d53f64033c4b76fdc1076ba15955d913209866c" datatype="html">
@@ -208,390 +439,715 @@
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="341e4968b2a912618d6622bbbb83e32c573ea05b" datatype="html">
-        <source>Saturated (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">141</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">298</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3f8f7fe01f78192b86178ffa58ea634cff3ae6d5" datatype="html">
-        <source>Monounsaturated (g):</source>
+      <trans-unit id="64a59d15395e2c484c74a13b4f25dbf787a62ad4" datatype="html">
+        <source>Saturated (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">146</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">408</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0b22077551c48b1136e0425f66960b54cb712544" datatype="html">
-        <source>Polyunsaturated (g):</source>
+      <trans-unit id="9d30da9fc11a2667d83de212af2e83ceba2fd466" datatype="html">
+        <source>Monounsaturated (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">412</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bde61b70249c30a59bf239ae8dfddb848043510" datatype="html">
+        <source>Polyunsaturated (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">416</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec35dc610ee9f1b1f92433726a7457d49d1044e1" datatype="html">
+        <source>12:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">420</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d0ef719e9d98bc47eaea304d6548cd8ed1ad869" datatype="html">
+        <source>14:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">424</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71583a8a92fe3e1d11b73b030874d26389b335cd" datatype="html">
+        <source>16:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">428</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6cdd152b642f8d5af35e5244f8bc6d0e995939c8" datatype="html">
+        <source>18:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">432</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0e90f8d6dd9b475a389f92a1ebb642695c26970" datatype="html">
+        <source>20:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">436</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bd62a8b59b9b14ff7f1cc064dbc3b778486783a" datatype="html">
+        <source>22:0 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">440</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="111105da1a80c435c6a4c94a668629ce616ee120" datatype="html">
+        <source>24:0 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">151</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="1a4507af0fcdf3023afb9406571d7dd00eed20d1" datatype="html">
-        <source>12:0 (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">156</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">444</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f8ec7a412a3f6f4cc954566cf76bf0b41f7fdc40" datatype="html">
-        <source>14:0 (g):</source>
+      <trans-unit id="114a2cb622ba3ff5425db75e1eeeed7dcf64a9d0" datatype="html">
+        <source>14:1 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">161</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">448</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c8323be781d08aabfc0e0c84fc759e5831bf840a" datatype="html">
-        <source>16:0 (g):</source>
+      <trans-unit id="ce36338ca00fda15c5f0ac2741dd1d4359f50a5f" datatype="html">
+        <source>16:1 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">166</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">452</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a2dea68948c366f50b5a2eceae09f606db6f22d4" datatype="html">
-        <source>18:0 (g):</source>
+      <trans-unit id="5e3f3bcd58b25996d7ec24df403bb70eef8cefbc" datatype="html">
+        <source>18:1 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">456</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3cf39cacf4c36f4b06fa9e334fa40094eeb0d6d" datatype="html">
+        <source>20:1 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">460</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8be7903f04b18ab2c248b72b07d097c43b9b1ee8" datatype="html">
+        <source>18:2 n-6 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">171</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="43c06ee42f679ee0ed31cf9af57e2a75f749dbf1" datatype="html">
-        <source>20:0 (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">176</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">464</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c1df2cdcd7286880f268bb88bb23d47df9b9a760" datatype="html">
-        <source>22:0 (g):</source>
+      <trans-unit id="bd7551dec073015478667f0b3eac1d75088b5583" datatype="html">
+        <source>18:3 n-3 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">181</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">468</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cba7a59cef1111900c538164620775bcfda256cf" datatype="html">
-        <source>24:0 (g):</source>
+      <trans-unit id="f8a1df97075ac25908f6712eaeda6e4c93b7c304" datatype="html">
+        <source>20:4 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">472</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="79177c41e56942f72d9c19f225d9df869fe50d01" datatype="html">
-        <source>14:1 (g):</source>
+      <trans-unit id="4b0d27f0ba14a509225e9466d9f3ebc1522e1474" datatype="html">
+        <source>20:5 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">476</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="980f28912567c07d103d046782ad30c6fc2d56aa" datatype="html">
+        <source>22:5 (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7edb4e8aae43e3cdc7cd78793d68e66c59e8efb8" datatype="html">
+        <source>22:6 (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">191</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="ee6558a4220cbb07632517b323f33c1ffb32db09" datatype="html">
-        <source>16:1 (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">196</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">484</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="944a32a90742d1a0451a306bb82d6eb8ae753046" datatype="html">
-        <source>18:1 (g):</source>
+      <trans-unit id="ad22f2962fae647fe29472885312f9f933edbddf" datatype="html">
+        <source>18:1t (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">201</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">488</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b380066dcef7ed59fbe1932cc9fc99f98e00dc93" datatype="html">
-        <source>20:1 (g):</source>
+      <trans-unit id="aade55ecb9628fdffdecb67716bda00ee430b8b4" datatype="html">
+        <source>18:2t (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">206</context>
+          <context context-type="linenumber">199</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="e8b5acbd671a0636c47943381b1dc14087ee0447" datatype="html">
-        <source>18:2 n-6 (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">211</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">171</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="f67e151b6aa5a7f54fdc421b1d91170c2c08422c" datatype="html">
-        <source>18:3 n-3 (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">216</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="350e6c953feb1324346c24b2774a83f9fda76311" datatype="html">
-        <source>20:4 (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">221</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7130c35bc2c60f928d1dc101977631c976c94f0e" datatype="html">
-        <source>20:5 (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">226</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f547cf3a50643317ee9dd75bb0eeade49166a32d" datatype="html">
-        <source>22:5 (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">231</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5c452d5f5757fceb29c8c28e614058e534840556" datatype="html">
-        <source>22:6 (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">236</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bfb8b58e3d673ced7f62114d835dc5dcd68f78f2" datatype="html">
-        <source>18:1t (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">241</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="25a63ea474128f4b1884c2ef776f0e083c51d04d" datatype="html">
-        <source>18:2t (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">246</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">492</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dcc9b4ba749a28a4a8e8543caf7e84be9f337dcb" datatype="html">
         <source>Fatty acids</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">405</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="eb3e8fd4c8930e43a8aff18ab3e0c0a3deed47c5" datatype="html">
-        <source>Tryptophan (g):</source>
+      <trans-unit id="e4310e3b5725a3f4d2add593eac28854b2c59511" datatype="html">
+        <source>Tryptophan (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">499</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de01b58ee17e4f86d08b0140f8af10a536aabd16" datatype="html">
+        <source>Threonine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">503</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af050844e9528153141269ec254b0df55a4cd561" datatype="html">
+        <source>Isoleucine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">214</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">507</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dba0d5c43f7f8f50fa2ffc148fdc6d6c56e09b6" datatype="html">
+        <source>Leucine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">511</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95d5ae4509fe03e1571363aa03b7722b1d2a86aa" datatype="html">
+        <source>Lysine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">222</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">515</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="867c5899f0427d024e5b160e29a83477a94985a4" datatype="html">
+        <source>Methionine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">519</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5bb86975c388b4abfbf41f3843869cf7753c9cbf" datatype="html">
+        <source>Cystine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">523</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="756f6e84f9fa979e4df1d78bbfa58a7be5a7d8cb" datatype="html">
+        <source>Phenylalanine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">527</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8bd7bff4fcad9528e5c42525dac79e8ce2af72de" datatype="html">
+        <source>Tyrosine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">531</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8674334d0c1a220b0ccae9958fa830a9476200f4" datatype="html">
+        <source>Valine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">242</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">535</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47a590d573c596565b0fe5a26e2c5a063b7f811e" datatype="html">
+        <source>Arginine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">539</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="179c25f293834cafb1fbf686ff4be60d8befa128" datatype="html">
+        <source>Histidine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">250</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">214</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">543</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac83a75a85edb23f39ffdc46dd573668405e1111" datatype="html">
+        <source>Alanine (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">254</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="2d1af97ebb9b6b20dda6da99f01201b6125622b1" datatype="html">
-        <source>Threonine (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">259</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">217</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">547</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5314c3a29e1d74f9556bd76b32e622c37bad9972" datatype="html">
-        <source>Isoleucine (g):</source>
+      <trans-unit id="4dda74d818fd48d370e307a43136cf0bc1c793a1" datatype="html">
+        <source>Aspartic (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">551</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="d27fab773d04b7877ba8133d5d49c8819bf68f94" datatype="html">
-        <source>Leucine (g):</source>
+      <trans-unit id="f53ec2b5ae80963d812a9fdcda38e4a6e3aba068" datatype="html">
+        <source>Glutamic (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">269</context>
+          <context context-type="linenumber">262</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">555</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0d9b6d1123101e555e4833a979df57f5c554a2e4" datatype="html">
-        <source>Lysine (g):</source>
+      <trans-unit id="87f645c074e9879a82bec2a8da12bf476736d75b" datatype="html">
+        <source>Glycine (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">559</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="527ec5ccb2ae57f89ad5f3b11d6421a633646038" datatype="html">
+        <source>Proline (g)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
+          <context context-type="linenumber">270</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">563</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e30e2f29f49f0c554befa944026cfd482730bdc" datatype="html">
+        <source>Serine (g)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
           <context context-type="linenumber">274</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="5594b7cb58ce22e086f6dc88be7db959cd9cdb7a" datatype="html">
-        <source>Methionine (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">279</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">232</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="4d06ebfc1d9371c152debb1a395ac96334d328da" datatype="html">
-        <source>Cystine (g):</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">284</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6df4f21b0318ad8020e1e513d6d9c1ecc6eca730" datatype="html">
-        <source>Phenylalanine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">289</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e7b33e7c5aec38df15d183ce3fc3d9e3603ceea5" datatype="html">
-        <source>Tyrosine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">294</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6dc4693ce49909f1ddde37c2093efad0dc274b42" datatype="html">
-        <source>Valine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">299</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="73c409fd07639b42d23ee16e7ac643ce57fb9ea5" datatype="html">
-        <source>Arginine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">304</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cd044aacf63bd8d5cfd5c0b481b0c9201fb01746" datatype="html">
-        <source>Histidine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">309</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="87d4565613529d2885632ff83d859ae312946918" datatype="html">
-        <source>Alanine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">314</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="74e6377fe508be47c4cd799960a7e388efd83ed1" datatype="html">
-        <source>Aspartic (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">319</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5d4f0479d4a6e5e2b3867e79170e047c35be887e" datatype="html">
-        <source>Glutamic (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">324</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6445be5cce2b16b00b8a0bed9aacf0370a280351" datatype="html">
-        <source>Glycine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">329</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4f64885d474e72368179f69c8d4b11ba9fdfc41d" datatype="html">
-        <source>Proline (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">334</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="993ef7f45dd7a24e6228dc2f27ced81e2581d328" datatype="html">
-        <source>Serine (g):</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">339</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">567</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a310bf59cf891723813bbe6405861bac5c6c7076" datatype="html">
         <source>Amino acids</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/dialog-food/dialog-food.component.html</context>
-          <context context-type="linenumber">251</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">496</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="889c5515c3d8fb69c69d44f98faf39e55d646564" datatype="html">
-        <source>Brazilian Table of Food Composition</source>
+      <trans-unit id="00da233d8f48a931dafc95e6c2c1c143565182f1" datatype="html">
+        <source>Brazilian Table of Food Composition (TACO) - Version 4</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0475580a39eb5fa080181f2dee57e39237c5945e" datatype="html">
-        <source>Version 4</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8c2d247b6cb43a33c23ff7e2efcf084f4c70ffdf" datatype="html">
         <source>Select an category</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a2f14a73f7a6e94479f67423cc51102da8d6f524" datatype="html">
         <source>None</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">244</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5ca707824ab93066c7d9b44e1b8bf216725c2c22" datatype="html">
         <source>Filter</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="45cc8ca94b5a50842a9a8ef804a5ab089a38ae5c" datatype="html">
         <source>ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">255</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
         <source>Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">26</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="c559ed25f2ad8b34bcaeb7130e0187aeb2ad56d2" datatype="html">
-        <source>Energy (kcal)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b21e67a97e211d8786f61c0b5183874cfd0474a6" datatype="html">
-        <source>Lipid (g)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="25271804e39e32cc48c72d1920013bfe7b80c7c6" datatype="html">
-        <source>Protein (g)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d85465e27177d6bee92ff3d5b328ea844fb0c91f" datatype="html">
-        <source>Carbohydrate (g)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">261</context>
         </context-group>
       </trans-unit>
       <trans-unit id="030b4423b92167200e39519599f9b863b4f7c62c" datatype="html">
         <source>Actions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">267</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d06ced1330c1dbe74981ccf205f97f4386057b08" datatype="html">
         <source>View information</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d0d58431a2475773a4560ff231a7201da61a6d88" datatype="html">
@@ -600,39 +1156,106 @@
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">72</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="5199ce3ff45e788e9a1184dbdb394c5551bae0ce" datatype="html">
-        <source>The TACO (Brazilian Table of Food Composition) project, coordinated by the University of Campinas (UNICAMP) , is an initiative to offer data on an expressive number of nutrients in national and regional foods obtained through representative sampling and analyzes carried out only by laboratories with analytical competence proven by interlaboratory studies, according to international criteria.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2524ea34b389d8bfe197cd87c932f83cad1550ba" datatype="html">
+        <source>Food selection</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36f01627ecf42e87abc34227e0360ca1ff7f1b6d" datatype="html">
+        <source>Build comparison</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3afbf0e268816db2bcc70638d61281e6c8b39a5d" datatype="html">
+        <source>Criteria</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="480779266473d0cc821c87312212e54f4bbabaad" datatype="html">
+        <source>Select the food attributes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce7486792417fc64f4ad21cd31b06d62f9731ed3" datatype="html">
+        <source>                  Magnesium (mg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5798433c79995e96d67a8272479140b14ec3b283" datatype="html">
+        <source>Select an food</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">269</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9cece0ed974f75c69c8db7fa805c3c40f91405e" datatype="html">
+        <source>Comparison</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
+        <source>Back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f13b0a06de4d49619bc68f3805f4bd4f94ff7905" datatype="html">
+        <source>The TACO (Brazilian Table of Food Composition) project, coordinated by the University of Campinas (UNICAMP), is an initiative to offer data on an expressive number of nutrients in national and regional foods obtained through representative sampling and analyzes carried out only by laboratories with analytical competence proven by interlaboratory studies, according to international criteria.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fb7729215284f8c6362153fdcc37f1cc2c7ae74a" datatype="html">
         <source>Knowledge of the composition of the food consumed in Brazil is essential to achieve food security in the country. Food composition tables are basic pillars for nutritional education, quality control and food safety, assessment and adequacy of nutrient intake by individuals or populations. Through them, public health officials can establish nutritional goals and food guides that lead to a healthier diet. At the same time that they provide subsidies to researchers of epidemiological studies that relate the diet to the risks of diseases or professionals who need this information for clinical purposes, these data can guide agriculture and the food industries in the development of new products and support policies protection of the environment and biodiversity. They are also necessary for nutrition labeling to assist consumers in choosing food. In addition, in a highly globalized and competitive market, data on food composition serve to encourage national and international food commercialization.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e037b49fb40b20a3091a13917e28103b68fc909" datatype="html">
         <source>Data on the composition of food consumed in different regions of Brazil provide basic elements for nutritional guidance actions based on principles of local development and diversification of food, as opposed to the massification of a monotonous and unbalanced diet. To avoid wrong decisions or conclusions, food composition tables need to be reliable, up-to-date and as complete as possible.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b72f274249fdaab8abd62d1a6137865bcd78574a" datatype="html">
-        <source>The TACO table is currently in its fourth edition. In the first version, 198 foods were counted. In the most updated edition there are 597 items.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3b72e9036a83b8e7c42fd81956babc392cd374f3" datatype="html">
-        <source>For more information: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+      <trans-unit id="addc14c2e20d4dca1e70904bbc35fb443cd026c3" datatype="html">
+        <source>The TACO project is currently in its fourth edition. In the first version, 198 foods were counted. In the most updated edition there are 597 items.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">7</context>
@@ -641,36 +1264,43 @@
       <trans-unit id="mat-paginator-intl-items-per-page" datatype="html">
         <source>Items per page</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/services/mat-paginator-intl-i18n.service.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">src/app/services/mat-paginator-intl-i18n.service.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mat-paginator-intl-first-page" datatype="html">
         <source>First page</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/services/mat-paginator-intl-i18n.service.ts</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="sourcefile">src/app/services/mat-paginator-intl-i18n.service.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mat-paginator-intl-last-page" datatype="html">
         <source>Last page</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/services/mat-paginator-intl-i18n.service.ts</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">src/app/services/mat-paginator-intl-i18n.service.ts</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mat-paginator-intl-next-page" datatype="html">
         <source>Next page</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/services/mat-paginator-intl-i18n.service.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">src/app/services/mat-paginator-intl-i18n.service.ts</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mat-paginator-intl-previous-page" datatype="html">
         <source>Previous page</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/services/mat-paginator-intl-i18n.service.ts</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="sourcefile">src/app/services/mat-paginator-intl-i18n.service.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="food-comparison-validation-message" datatype="html">
+        <source>Please select at least one criteria and two foods.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/comparison/comparison.component.ts</context>
+          <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
     </body>

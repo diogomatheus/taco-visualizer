@@ -1,19 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-.mat-spacer {
-    flex: 1 1 auto;
+p {
+  text-align: justify;
+}
+
+p.reference {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 50px;
 }
 
 h1.page-title {
     text-align: center;
-    color: #ff4081
+    color: #9b59b6;
 }
 
 h2.page-subtitle {
-    text-align: center;
+    text-align: left;
     color: #596275
 }
 
@@ -22,8 +32,26 @@ div.page-content {
     margin: auto;
 }
 
-p.reference {
-    text-align: center;
-    font-size: 0.8em;
-    margin-top: 50px;
+span.mat-spacer {
+  flex: 1 1 auto;
+}
+
+div.stepper-buttons {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+div.stepper-buttons button {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.mat-grid-tile .mat-figure.mat-figure {
+  justify-content: flex-start;
+  align-items: flex-start;
 }

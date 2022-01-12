@@ -1,6 +1,6 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, OnDestroy } from '@angular/core';
 
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 import { Food } from './../shared/model/food';
 
@@ -9,18 +9,14 @@ import { Food } from './../shared/model/food';
   templateUrl: './dialog-food.component.html',
   styleUrls: ['./dialog-food.component.scss']
 })
-export class DialogFoodComponent implements OnInit {
+export class DialogFoodComponent implements OnInit, OnDestroy {
 
   constructor(
-    public dialogRef: MatDialogRef<DialogFoodComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: Food
+    @Inject(MAT_DIALOG_DATA) public row: Food
   ) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  isString(value) {
-    return typeof value == "string";
-  }
+  ngOnDestroy(): void {}
 
 }

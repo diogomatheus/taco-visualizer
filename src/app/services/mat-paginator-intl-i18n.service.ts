@@ -9,14 +9,14 @@ import { I18nService } from './i18n.service';
 export class MatPaginatorIntlI18n extends MatPaginatorIntl {
 
   constructor(
-    private i18nService: I18nService
+    private _i18nService: I18nService
   ) {
     super();
-    this.itemsPerPageLabel = i18nService.get("mat-paginator-intl-items-per-page");
-    this.firstPageLabel = i18nService.get("mat-paginator-intl-first-page");
-    this.lastPageLabel = i18nService.get("mat-paginator-intl-last-page");
-    this.nextPageLabel = i18nService.get("mat-paginator-intl-next-page");
-    this.previousPageLabel = i18nService.get("mat-paginator-intl-previous-page");
+    this.itemsPerPageLabel = _i18nService.get("mat-paginator-intl-items-per-page");
+    this.firstPageLabel = _i18nService.get("mat-paginator-intl-first-page");
+    this.lastPageLabel = _i18nService.get("mat-paginator-intl-last-page");
+    this.nextPageLabel = _i18nService.get("mat-paginator-intl-next-page");
+    this.previousPageLabel = _i18nService.get("mat-paginator-intl-previous-page");
   }
 
   getRangeLabel = (page: number, pageSize: number, length: number) => {

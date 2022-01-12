@@ -1,11 +1,10 @@
-<h1 class="page-title" i18n>Brazilian Table of Food Composition</h1>
-<h2 class="page-subtitle" i18n>Version 4</h2>
+<h1 class="page-title" i18n>Brazilian Table of Food Composition (TACO) - Version 4</h1>
 <div class="page-content">
   <mat-form-field>
     <mat-label i18n>Select an category</mat-label>
     <mat-select [(value)]="selectedCategory" (selectionChange)="selectCategory()">
       <mat-option i18n>None</mat-option>
-      <mat-option *ngFor="let item of categories" [value]="item.category">{{item.category}}</mat-option>
+      <mat-option *ngFor="let item of categories" [value]="item.category">{{ item.category }}</mat-option>
     </mat-select>
   </mat-form-field>
   
@@ -19,37 +18,37 @@
       <!-- ID Column -->
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>ID</th>
-        <td mat-cell *matCellDef="let row">{{row.id}}</td>
+        <td mat-cell *matCellDef="let row">{{ row.id }}</td>
       </ng-container>
   
       <!-- Description Column -->
       <ng-container matColumnDef="description">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Description</th>
-        <td mat-cell *matCellDef="let row">{{row.description}}</td>
+        <td mat-cell *matCellDef="let row">{{ row.description }}</td>
       </ng-container>
   
       <!-- Calorie Column -->
       <ng-container matColumnDef="energy_kcal">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Energy (kcal)</th>
-        <td mat-cell *matCellDef="let row">{{isString(row.energy_kcal) ? row.energy_kcal : (row.energy_kcal | number:'1.0-2')}}</td>
+        <td mat-cell *matCellDef="let row">{{ row['energy_kcal'] | foodAttribute:'number' }}</td>
       </ng-container>
   
       <!-- Lipid Column -->
       <ng-container matColumnDef="lipid_g">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Lipid (g)</th>
-        <td mat-cell *matCellDef="let row">{{isString(row.lipid_g) ? row.lipid_g : (row.lipid_g | number:'1.0-2')}}</td>
+        <td mat-cell *matCellDef="let row">{{ row['lipid_g'] | foodAttribute:'number' }}</td>
       </ng-container>
   
       <!-- Protein Column -->
       <ng-container matColumnDef="protein_g">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Protein (g)</th>
-        <td mat-cell *matCellDef="let row">{{isString(row.protein_g) ? row.protein_g : (row.protein_g | number:'1.0-2') }}</td>
+        <td mat-cell *matCellDef="let row">{{ row['protein_g'] | foodAttribute:'number' }}</td>
       </ng-container>
   
       <!-- Carbohydrate Column -->
       <ng-container matColumnDef="carbohydrate_g">
         <th mat-header-cell *matHeaderCellDef mat-sort-header i18n>Carbohydrate (g)</th>
-        <td mat-cell *matCellDef="let row">{{isString(row.carbohydrate_g) ? row.carbohydrate_g : (row.carbohydrate_g | number:'1.0-2')}}</td>
+        <td mat-cell *matCellDef="let row">{{ row['carbohydrate_g'] | foodAttribute:'number' }}</td>
       </ng-container>
 
       <!-- Actions Column -->
