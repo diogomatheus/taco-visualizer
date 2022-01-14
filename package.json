@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build --aot --prod=true",
     "build-i18n:en": "ng build --aot --prod=true --base-href /coursera-angular-project/ --i18n-file=src/i18n/messages.en.xlf --i18n-format=xlf --i18n-locale=en --i18nMissingTranslation=error",
-    "build-i18n:pt": "ng build --aot --prod=true --base-href /projetos/tabela-taco/ --i18n-file=src/i18n/messages.pt.xlf --i18n-format=xlf --i18n-locale=pt --i18nMissingTranslation=error",
+    "build-i18n:pt": "ng build --aot --prod=true --base-href /coursera-angular-project/ --i18n-file=src/i18n/messages.pt.xlf --i18n-format=xlf --i18n-locale=pt --i18nMissingTranslation=error",
     "i18n": "ng xi18n --i18nFormat=xlf --outFile=src/i18n/messages.xlf",
     "test": "ng test",
     "lint": "ng lint",
