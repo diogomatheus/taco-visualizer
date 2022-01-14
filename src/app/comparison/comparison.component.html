@@ -18,234 +18,224 @@
               <mat-checkbox data-criteria-type="group" name="general_group" [(ngModel)]="foodComparisonCriteria['general_group']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>General</mat-checkbox>
             </div>
             <div class="food-comparison-criteria-items">
-              <mat-grid-list cols="4" rowHeight="50px">
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="humidity_percents" [(ngModel)]="foodComparisonCriteria['humidity_percents']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Humidity (%)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="energy_kcal" [(ngModel)]="foodComparisonCriteria['energy_kcal']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Energy (kcal)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="energy_kj" [(ngModel)]="foodComparisonCriteria['energy_kj']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Energy (kj)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="protein_g" [(ngModel)]="foodComparisonCriteria['protein_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Protein (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="lipid_g" [(ngModel)]="foodComparisonCriteria['lipid_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Lipid (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="cholesterol_mg" [(ngModel)]="foodComparisonCriteria['cholesterol_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Cholesterol (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="carbohydrate_g" [(ngModel)]="foodComparisonCriteria['carbohydrate_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Carbohydrate (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="fiber_g" [(ngModel)]="foodComparisonCriteria['fiber_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Fiber (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="ashes_g" [(ngModel)]="foodComparisonCriteria['ashes_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Ashes (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="calcium_mg" [(ngModel)]="foodComparisonCriteria['calcium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Calcium (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="magnesium_mg" [(ngModel)]="foodComparisonCriteria['magnesium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Magnesium (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="manganese_mg" [(ngModel)]="foodComparisonCriteria['manganese_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Manganese (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="phosphorus_mg" [(ngModel)]="foodComparisonCriteria['phosphorus_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Phosphorus (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="iron_mg" [(ngModel)]="foodComparisonCriteria['iron_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Iron (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="sodium_mg" [(ngModel)]="foodComparisonCriteria['sodium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Sodium (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="potassium_mg" [(ngModel)]="foodComparisonCriteria['potassium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Potassium (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="copper_mg" [(ngModel)]="foodComparisonCriteria['copper_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Copper (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="zinc_mg" [(ngModel)]="foodComparisonCriteria['zinc_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Zinc (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="retinol_mcg" [(ngModel)]="foodComparisonCriteria['retinol_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Retinol (mcg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="re_mcg" [(ngModel)]="foodComparisonCriteria['re_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>RE (mcg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="rae_mcg" [(ngModel)]="foodComparisonCriteria['rae_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>RAE (mcg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="thiamine_mg" [(ngModel)]="foodComparisonCriteria['thiamine_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Thiamine (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="riboflavin_mg" [(ngModel)]="foodComparisonCriteria['riboflavin_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Riboflavin (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="pyridoxine_mg" [(ngModel)]="foodComparisonCriteria['pyridoxine_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Pyridoxine (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="niacin_mg" [(ngModel)]="foodComparisonCriteria['niacin_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Niacin (mg)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="vitaminC_mg" [(ngModel)]="foodComparisonCriteria['vitaminC_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Vitamin C (mg)</mat-checkbox>
-                </mat-grid-tile>
-              </mat-grid-list>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="humidity_percents" [(ngModel)]="foodComparisonCriteria['humidity_percents']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Humidity (%)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="energy_kcal" [(ngModel)]="foodComparisonCriteria['energy_kcal']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Energy (kcal)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="energy_kj" [(ngModel)]="foodComparisonCriteria['energy_kj']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Energy (kj)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="protein_g" [(ngModel)]="foodComparisonCriteria['protein_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Protein (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="lipid_g" [(ngModel)]="foodComparisonCriteria['lipid_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Lipid (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="cholesterol_mg" [(ngModel)]="foodComparisonCriteria['cholesterol_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Cholesterol (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="carbohydrate_g" [(ngModel)]="foodComparisonCriteria['carbohydrate_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Carbohydrate (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="fiber_g" [(ngModel)]="foodComparisonCriteria['fiber_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Fiber (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="ashes_g" [(ngModel)]="foodComparisonCriteria['ashes_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Ashes (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="calcium_mg" [(ngModel)]="foodComparisonCriteria['calcium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Calcium (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="magnesium_mg" [(ngModel)]="foodComparisonCriteria['magnesium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Magnesium (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="manganese_mg" [(ngModel)]="foodComparisonCriteria['manganese_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Manganese (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="phosphorus_mg" [(ngModel)]="foodComparisonCriteria['phosphorus_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Phosphorus (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="iron_mg" [(ngModel)]="foodComparisonCriteria['iron_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Iron (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="sodium_mg" [(ngModel)]="foodComparisonCriteria['sodium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Sodium (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="potassium_mg" [(ngModel)]="foodComparisonCriteria['potassium_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Potassium (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="copper_mg" [(ngModel)]="foodComparisonCriteria['copper_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Copper (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="zinc_mg" [(ngModel)]="foodComparisonCriteria['zinc_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Zinc (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="retinol_mcg" [(ngModel)]="foodComparisonCriteria['retinol_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Retinol (mcg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="re_mcg" [(ngModel)]="foodComparisonCriteria['re_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>RE (mcg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="rae_mcg" [(ngModel)]="foodComparisonCriteria['rae_mcg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>RAE (mcg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="thiamine_mg" [(ngModel)]="foodComparisonCriteria['thiamine_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Thiamine (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="riboflavin_mg" [(ngModel)]="foodComparisonCriteria['riboflavin_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Riboflavin (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="pyridoxine_mg" [(ngModel)]="foodComparisonCriteria['pyridoxine_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Pyridoxine (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="niacin_mg" [(ngModel)]="foodComparisonCriteria['niacin_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Niacin (mg)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="general_group" name="vitaminC_mg" [(ngModel)]="foodComparisonCriteria['vitaminC_mg']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Vitamin C (mg)</mat-checkbox>
+              </div>
             </div>
             <div class="food-comparison-criteria-group">
               <mat-checkbox data-criteria-type="group" name="fatty_acids_group" [(ngModel)]="foodComparisonCriteria['fatty_acids_group']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Fatty acids</mat-checkbox>
             </div>
             <div class="food-comparison-criteria-items">
-              <mat-grid-list cols="4" rowHeight="50px">
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="saturated_g" [(ngModel)]="foodComparisonCriteria['saturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Saturated (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="monounsaturated_g" [(ngModel)]="foodComparisonCriteria['monounsaturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Monounsaturated (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="polyunsaturated_g" [(ngModel)]="foodComparisonCriteria['polyunsaturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Polyunsaturated (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="12:0_g" [(ngModel)]="foodComparisonCriteria['12:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>12:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="14:0_g" [(ngModel)]="foodComparisonCriteria['14:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>14:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="16:0_g" [(ngModel)]="foodComparisonCriteria['16:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>16:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:0_g" [(ngModel)]="foodComparisonCriteria['18:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:0_g" [(ngModel)]="foodComparisonCriteria['20:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:0_g" [(ngModel)]="foodComparisonCriteria['22:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="24:0_g" [(ngModel)]="foodComparisonCriteria['24:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>24:0 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="14:1_g" [(ngModel)]="foodComparisonCriteria['14:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>14:1 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="16:1_g" [(ngModel)]="foodComparisonCriteria['16:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>16:1 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:1_g" [(ngModel)]="foodComparisonCriteria['18:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:1 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:1_g" [(ngModel)]="foodComparisonCriteria['20:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:1 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:2 n-6_g" [(ngModel)]="foodComparisonCriteria['18:2 n-6_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:2 n-6 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:3 n-3_g" [(ngModel)]="foodComparisonCriteria['18:3 n-3_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:3 n-3 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:4_g" [(ngModel)]="foodComparisonCriteria['20:4_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:4 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:5_g" [(ngModel)]="foodComparisonCriteria['20:5_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:5 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:5_g" [(ngModel)]="foodComparisonCriteria['22:5_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:5 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:6_g" [(ngModel)]="foodComparisonCriteria['22:6_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:6 (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:1t_g" [(ngModel)]="foodComparisonCriteria['18:1t_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:1t (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:2t_g" [(ngModel)]="foodComparisonCriteria['18:2t_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:2t (g)</mat-checkbox>
-                </mat-grid-tile>
-              </mat-grid-list>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="saturated_g" [(ngModel)]="foodComparisonCriteria['saturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Saturated (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="monounsaturated_g" [(ngModel)]="foodComparisonCriteria['monounsaturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Monounsaturated (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="polyunsaturated_g" [(ngModel)]="foodComparisonCriteria['polyunsaturated_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Polyunsaturated (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="12:0_g" [(ngModel)]="foodComparisonCriteria['12:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>12:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="14:0_g" [(ngModel)]="foodComparisonCriteria['14:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>14:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="16:0_g" [(ngModel)]="foodComparisonCriteria['16:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>16:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:0_g" [(ngModel)]="foodComparisonCriteria['18:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:0_g" [(ngModel)]="foodComparisonCriteria['20:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:0_g" [(ngModel)]="foodComparisonCriteria['22:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="24:0_g" [(ngModel)]="foodComparisonCriteria['24:0_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>24:0 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="14:1_g" [(ngModel)]="foodComparisonCriteria['14:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>14:1 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="16:1_g" [(ngModel)]="foodComparisonCriteria['16:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>16:1 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:1_g" [(ngModel)]="foodComparisonCriteria['18:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:1 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:1_g" [(ngModel)]="foodComparisonCriteria['20:1_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:1 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:2 n-6_g" [(ngModel)]="foodComparisonCriteria['18:2 n-6_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:2 n-6 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:3 n-3_g" [(ngModel)]="foodComparisonCriteria['18:3 n-3_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:3 n-3 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:4_g" [(ngModel)]="foodComparisonCriteria['20:4_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:4 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="20:5_g" [(ngModel)]="foodComparisonCriteria['20:5_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>20:5 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:5_g" [(ngModel)]="foodComparisonCriteria['22:5_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:5 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="22:6_g" [(ngModel)]="foodComparisonCriteria['22:6_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>22:6 (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:1t_g" [(ngModel)]="foodComparisonCriteria['18:1t_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:1t (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="fatty_acids_group" name="18:2t_g" [(ngModel)]="foodComparisonCriteria['18:2t_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>18:2t (g)</mat-checkbox>
+              </div>
             </div>
             <div class="food-comparison-criteria-group">
               <mat-checkbox data-criteria-type="group" name="amino_acids_group" [(ngModel)]="foodComparisonCriteria['amino_acids_group']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Amino acids</mat-checkbox>
             </div>
             <div class="food-comparison-criteria-items">
-              <mat-grid-list cols="4" rowHeight="50px">
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="tryptophan_g" [(ngModel)]="foodComparisonCriteria['tryptophan_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Tryptophan (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="threonine_g" [(ngModel)]="foodComparisonCriteria['threonine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Threonine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="isoleucine_g" [(ngModel)]="foodComparisonCriteria['isoleucine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Isoleucine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="leucine_g" [(ngModel)]="foodComparisonCriteria['leucine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Leucine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="lysine_g" [(ngModel)]="foodComparisonCriteria['lysine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Lysine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="methionine_g" [(ngModel)]="foodComparisonCriteria['methionine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Methionine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="cystine_g" [(ngModel)]="foodComparisonCriteria['cystine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Cystine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="phenylalanine_g" [(ngModel)]="foodComparisonCriteria['phenylalanine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Phenylalanine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="tyrosine_g" [(ngModel)]="foodComparisonCriteria['tyrosine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Tyrosine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="valine_g" [(ngModel)]="foodComparisonCriteria['valine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Valine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="arginine_g" [(ngModel)]="foodComparisonCriteria['arginine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Arginine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="histidine_g" [(ngModel)]="foodComparisonCriteria['histidine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Histidine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="alanine_g" [(ngModel)]="foodComparisonCriteria['alanine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Alanine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="aspartic_g" [(ngModel)]="foodComparisonCriteria['aspartic_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Aspartic (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="glutamic_g" [(ngModel)]="foodComparisonCriteria['glutamic_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Glutamic (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="glycine_g" [(ngModel)]="foodComparisonCriteria['glycine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Glycine (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="proline_g" [(ngModel)]="foodComparisonCriteria['proline_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Proline (g)</mat-checkbox>
-                </mat-grid-tile>
-                <mat-grid-tile>
-                  <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="serine_g" [(ngModel)]="foodComparisonCriteria['serine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Serine (g)</mat-checkbox>
-                </mat-grid-tile>
-              </mat-grid-list>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="tryptophan_g" [(ngModel)]="foodComparisonCriteria['tryptophan_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Tryptophan (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="threonine_g" [(ngModel)]="foodComparisonCriteria['threonine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Threonine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="isoleucine_g" [(ngModel)]="foodComparisonCriteria['isoleucine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Isoleucine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="leucine_g" [(ngModel)]="foodComparisonCriteria['leucine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Leucine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="lysine_g" [(ngModel)]="foodComparisonCriteria['lysine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Lysine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="methionine_g" [(ngModel)]="foodComparisonCriteria['methionine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Methionine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="cystine_g" [(ngModel)]="foodComparisonCriteria['cystine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Cystine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="phenylalanine_g" [(ngModel)]="foodComparisonCriteria['phenylalanine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Phenylalanine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="tyrosine_g" [(ngModel)]="foodComparisonCriteria['tyrosine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Tyrosine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="valine_g" [(ngModel)]="foodComparisonCriteria['valine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Valine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="arginine_g" [(ngModel)]="foodComparisonCriteria['arginine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Arginine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="histidine_g" [(ngModel)]="foodComparisonCriteria['histidine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Histidine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="alanine_g" [(ngModel)]="foodComparisonCriteria['alanine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Alanine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="aspartic_g" [(ngModel)]="foodComparisonCriteria['aspartic_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Aspartic (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="glutamic_g" [(ngModel)]="foodComparisonCriteria['glutamic_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Glutamic (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="glycine_g" [(ngModel)]="foodComparisonCriteria['glycine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Glycine (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="proline_g" [(ngModel)]="foodComparisonCriteria['proline_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Proline (g)</mat-checkbox>
+              </div>
+              <div class="food-comparison-criteria-item">
+                <mat-checkbox data-criteria-type="item" data-criteria-group="amino_acids_group" name="serine_g" [(ngModel)]="foodComparisonCriteria['serine_g']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}" i18n>Serine (g)</mat-checkbox>
+              </div>
             </div>
           </mat-expansion-panel>
         </div>
         <mat-card id="food-selection-container">
           <mat-card-content>
             <div id="food-selection-form">
-              <mat-form-field>
-                <mat-label i18n>Select an food</mat-label>
-                <mat-select [(value)]="selectedFood">
-                  <mat-option i18n>None</mat-option>
-                  <mat-option *ngFor="let item of foods" [value]="item.description" [disabled]="item.disabled">{{ item.id }} - {{ item.description }}</mat-option>
-                </mat-select>
-              </mat-form-field>
-              <button mat-mini-fab (click)="addFood()" i18n-matTooltip matTooltip="Add">
+              <ng-select #foodSelectionDropdown [editableSearchTerm]="true" [(ngModel)]="selectedFood" [ngModelOptions]="{standalone: true}" i18n-placeholder placeholder="Select a food">
+                <ng-option *ngFor="let item of foods" [value]="item.description" [disabled]="item.disabled">{{ item.id }} - {{ item.description }}</ng-option>
+              </ng-select>
+              <button mat-mini-fab (click)="addFood(foodSelectionDropdown)" i18n-matTooltip matTooltip="Add">
                 <mat-icon>add</mat-icon>
               </button>
             </div>

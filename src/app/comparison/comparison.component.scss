@@ -1,3 +1,8 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
 #food-comparison-criteria, #food-selection-container {
   margin-top: 30px;
 }
@@ -7,9 +12,11 @@
 }
 
 .food-comparison-criteria-items {
-  padding-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 #food-selection-form {
@@ -20,21 +27,16 @@
   margin: 10px;
 }
 
-.mat-form-field {
-  font-size: 14px;
-  width: 100%;
-}
-
 table {
   width: 100%;
 }
 
 table#selected-food-table th.mat-column-id, table#selected-food-table th.mat-column-actions {
-  width: 10%;
+  width: 15%;
 }
 
 div#food-comparison-container {
-  overflow: hidden;
+  overflow-x: auto;
   margin-top: 30px;
   border-radius: 10px;
   background: #7918f2;
@@ -45,27 +47,26 @@ div#food-comparison-container {
 }
 
 div#food-comparison-container table {
-  table-layout: fixed;
+  overflow-x: auto;
   background-color: transparent;
   border-spacing: 0px;
 }
 
 div#food-comparison-container table tr td, div#food-comparison-container table tr th {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 5px 20px 5px;
   color: #fff;
   font-weight: normal;
   text-align: center;
   line-height: 1.4;
 }
 
-div#food-comparison-container table tr td:nth-of-type(1) {
-  text-align: left;
-  padding-left: 50px;
+div#food-comparison-container table tr td:nth-of-type(1).group {
+  padding-left: 5px;
 }
 
-div#food-comparison-container table tr td:nth-of-type(1).group {
-  padding-left: 20px;
+div#food-comparison-container table tr td:nth-of-type(1) {
+  text-align: left;
+  padding-left: 15px;
 }
 
 div#food-comparison-container table tr th {

@@ -8,6 +8,7 @@ import { Food } from './../shared/model/food';
 import { FoodComparisonCriteria } from './../shared/model/food-comparison-criteria';
 import { FoodService } from '../services/food.service';
 import { I18nService } from '../services/i18n.service';
+import { NgSelectComponent } from '@ng-select/ng-select';
 
 @Component({
   selector: 'app-comparison',
@@ -124,14 +125,14 @@ export class ComparisonComponent implements OnInit, OnDestroy {
     return Array.isArray(selectedCriteria) && selectedCriteria.length >= 2;
   }
 
-  addFood() {
+  addFood(foodSelectionDropdown: NgSelectComponent) {
     if (this.selectedFood) {
       const foodIndex = this.foods.findIndex(element => element.description === this.selectedFood);
       if (foodIndex !== -1) {
         let food = this.foods[foodIndex];
         this.selectedFoods.push(food);
         this.dataSource.data = this.selectedFoods;
-        this.selectedFood = null;
+        foodSelectionDropdown.handleClearClick();
         food.disabled = true;
         this.foods[foodIndex] = food;
       }

@@ -1162,12 +1162,12 @@
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8c2d247b6cb43a33c23ff7e2efcf084f4c70ffdf" datatype="html">
-        <source>Select an category</source>
+      <trans-unit id="8980a7143e11535f3cb1d7fca525cc182b569b8c" datatype="html">
+        <source>Select a category</source>
         <target>Selecione uma categoria</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a2f14a73f7a6e94479f67423cc51102da8d6f524" datatype="html">
@@ -1176,10 +1176,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">6</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
-          <context context-type="linenumber">244</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5ca707824ab93066c7d9b44e1b8bf216725c2c22" datatype="html">
@@ -1207,7 +1203,11 @@
         <target>Descrição</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
@@ -1282,12 +1282,12 @@
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5798433c79995e96d67a8272479140b14ec3b283" datatype="html">
-        <source>Select an food</source>
+      <trans-unit id="3660fd39b5c57ff6637aeb01c2385fbd4e58ba42" datatype="html">
+        <source>Select a food</source>
         <target>Selecione um alimento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/comparison/comparison.component.html</context>
-          <context context-type="linenumber">242</context>
+          <context context-type="linenumber">241</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
@@ -1400,6 +1400,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/comparison/comparison.component.ts</context>
           <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ng-select-not-found" datatype="html">
+        <source>Food not found.</source>
+        <target>Alimento não encontrado.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
     </body>

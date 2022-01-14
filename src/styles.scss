@@ -1,3 +1,5 @@
+@import "~@ng-select/ng-select/themes/material.theme.css";
+
 html, body {
   height: 100%;
 }
@@ -36,6 +38,24 @@ span.mat-spacer {
   flex: 1 1 auto;
 }
 
+.mat-grid-tile .mat-figure.mat-figure {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ng-select {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.ng-placeholder {
+  font-size: 14px;
+}
+
+div.page-content div.mat-horizontal-content-container {
+  overflow: inherit;
+}
+
 div.stepper-buttons {
     display: flex;
     box-sizing: border-box;
@@ -49,9 +69,4 @@ div.stepper-buttons {
 div.stepper-buttons button {
     background-color: #9b59b6;
     color: white;
-}
-
-.mat-grid-tile .mat-figure.mat-figure {
-  justify-content: flex-start;
-  align-items: flex-start;
 }

@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.dataSource.sort = this.sort;
   }
 
-  selectCategory() {
+  onChangeCategory($event) {
     let foods = this.foods;
     if (this.selectedCategory) {
       foods = this.foods.filter((item) => item.category == this.selectedCategory);
@@ -53,14 +53,14 @@ export class HomeComponent implements OnInit, OnDestroy {
     }
   }
 
-  filterData(value: string) {
+  onChangeDescriptionFilter(value: string) {
     this.dataSource.filter = value.trim().toLowerCase();
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
   }
 
-  onView(food) {
+  onClickView(food) {
     this._dialog.open(
       DialogFoodComponent,
       {

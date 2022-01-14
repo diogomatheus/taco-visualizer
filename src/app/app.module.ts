@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
@@ -57,6 +58,7 @@ import { MAT_PAGINATOR_INTL_SERVICE } from "./services/mat-paginator-intl-i18n.s
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    NgSelectModule,
     MatDialogModule,
     MatTabsModule,
     MatStepperModule,
