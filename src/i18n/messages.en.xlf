@@ -1407,11 +1407,19 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ng-select-not-found" datatype="html">
-        <source>Food not found.</source>
-        <target>Food not found.</target>
+        <source>Option not found</source>
+        <target>Option not found</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ng-select-clear-all" datatype="html">
+        <source>Clear</source>
+        <target>Clear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
     </body>

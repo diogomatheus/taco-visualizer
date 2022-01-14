@@ -13,5 +13,6 @@ export class AppComponent {
     private _ngSelectConfig: NgSelectConfig
   ) {
     this._ngSelectConfig.notFoundText = this._i18nService.get('ng-select-not-found');
+    this._ngSelectConfig.clearAllText = this._i18nService.get('ng-select-clear-all');
   }
 }
