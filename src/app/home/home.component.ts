@@ -10,6 +10,8 @@ import { FoodCategory } from '../shared/model/food-category';
 import { FoodService } from '../services/food.service';
 import { FoodCategoryService } from '../services/food-category.service';
 import { DialogFoodComponent } from '../dialog-food/dialog-food.component';
+import { Title } from '@angular/platform-browser';
+import { I18nService } from '../services/i18n.service';
 
 @Component({
   selector: 'app-home',
@@ -28,12 +30,16 @@ export class HomeComponent implements OnInit, OnDestroy {
   @ViewChild(MatSort, { static: true }) sort: MatSort;
 
   constructor(
+    private _titleService: Title,
+    private _i18nService: I18nService,
     private _dialog: MatDialog,
     private _foodCategoryService: FoodCategoryService,
     private _foodService: FoodService
   ) {}
 
   ngOnInit() {
+    this._titleService.setTitle(this._i18nService.get('page-title-home'));
+    
     this.categories = this._foodCategoryService.getCategories();
     this.foods = this._foodService.getFoods();
     this.dataSource = new MatTableDataSource(this.foods);
@@ -41,7 +47,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.dataSource.sort = this.sort;
   }
 
-  onChangeCategory($event) {
+  onChangeCategoryFilter($event) {
     let foods = this.foods;
     if (this.selectedCategory) {
       foods = this.foods.filter((item) => item.category == this.selectedCategory);

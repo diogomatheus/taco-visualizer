@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
+  
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
@@ -32,4 +33,5 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('taco-visualizer app is running!');
   });
+
 });

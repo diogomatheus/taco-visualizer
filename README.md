@@ -4,5 +4,5 @@ The TACO (Brazilian Table of Food Composition) project, coordinated by the Unive
 
 ## Main Functionalities
 
-- TACO's food items visualization through an easy-to-use interface to support consultation by consumers and professionals
-- TACO's food comparison to support professional analysis and decision making (e.g., food substitution)
+- Food visualization through an easy-to-use interface
+- Food comparison to support decision making in food substitution

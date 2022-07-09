@@ -1,7 +1,8 @@
 export class Food {
-  'id': any;
-  'description': any;
-  'category': any;
+
+  'id': number;
+  'description': string;
+  'category': string;
   'humidity_percents': any;
   'energy_kcal': any;
   'energy_kj': any;
@@ -69,4 +70,5 @@ export class Food {
   'proline_g': any;
   'serine_g': any;
   'disabled'?: boolean;
+
 }

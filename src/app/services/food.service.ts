@@ -7,9 +7,11 @@ import { FOODS } from '../shared/data/foods';
   providedIn: 'root'
 })
 export class FoodService {
-  constructor() { }
+
+  constructor() {}
 
   getFoods(): Food[] {
     return FOODS;
   }
+  
 }

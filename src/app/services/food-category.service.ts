@@ -7,9 +7,11 @@ import { CATEGORIES } from '../shared/data/food-categories';
   providedIn: 'root'
 })
 export class FoodCategoryService {
-  constructor() { }
+
+  constructor() {}
 
   getCategories(): FoodCategory[] {
     return CATEGORIES;
   }
+
 }

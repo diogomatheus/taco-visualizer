@@ -1,20 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ComparisonComponent } from './comparison.component';
+import { ComparatorComponent } from './comparator.component';
 
-describe('ComparisonComponent', () => {
-  let component: ComparisonComponent;
-  let fixture: ComponentFixture<ComparisonComponent>;
+describe('ComparatorComponent', () => {
+  
+  let component: ComparatorComponent;
+  let fixture: ComponentFixture<ComparatorComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ComparisonComponent ]
+      declarations: [ ComparatorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ComparisonComponent);
+    fixture = TestBed.createComponent(ComparatorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -22,4 +23,5 @@ describe('ComparisonComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

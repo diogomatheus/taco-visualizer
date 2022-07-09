@@ -4,18 +4,19 @@ import { MatStepper } from '@angular/material/stepper';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatTableDataSource } from '@angular/material/table';
 
-import { Food } from './../shared/model/food';
-import { FoodComparisonCriteria } from './../shared/model/food-comparison-criteria';
+import { Food } from '../shared/model/food';
+import { FoodComparisonCriteria } from '../shared/model/food-comparison-criteria';
 import { FoodService } from '../services/food.service';
 import { I18nService } from '../services/i18n.service';
 import { NgSelectComponent } from '@ng-select/ng-select';
+import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-comparison',
-  templateUrl: './comparison.component.html',
-  styleUrls: ['./comparison.component.scss']
+  selector: 'app-comparator',
+  templateUrl: './comparator.component.html',
+  styleUrls: ['./comparator.component.scss']
 })
-export class ComparisonComponent implements OnInit, OnDestroy {
+export class ComparatorComponent implements OnInit, OnDestroy {
 
   foods: Food[];
   foodComparisonCriteria: FoodComparisonCriteria;
@@ -25,6 +26,7 @@ export class ComparisonComponent implements OnInit, OnDestroy {
   displayedColumns: string[] = ['id', 'description', 'actions'];
 
   constructor(
+    private _titleService: Title,
     private _i18nService: I18nService,
     private _foodService: FoodService,
     private _snackBar: MatSnackBar,
@@ -32,6 +34,8 @@ export class ComparisonComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
+    this._titleService.setTitle(this._i18nService.get('page-title-comparator'));
+
     this.foods = [];
     let originalFoods = this._foodService.getFoods();
     originalFoods.forEach(food => this.foods.push(Object.assign({}, food)));
@@ -105,7 +109,7 @@ export class ComparisonComponent implements OnInit, OnDestroy {
       stepper.next();
     } else {
       const icon = '⚠️';
-      const message = this._i18nService.get("food-comparison-validation-message");
+      const message = this._i18nService.get("food-comparator-validation-message");
       this._snackBar.open(`${icon} ${message}`, '', { duration: 3500 });
     }
   }

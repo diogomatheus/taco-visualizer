@@ -1,8 +1,9 @@
 import { Food } from './food';
 
 export class FoodCategory {
-  'id': any;
-  'category': any;
+
+  'id': number;
+  'category': string;
   'foods'?: Food[];
-  'disabled'?: boolean;
+
 }

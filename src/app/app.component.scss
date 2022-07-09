@@ -9,3 +9,22 @@
 .mat-toolbar button:hover {
   background-color: #a29bfe;
 }
+
+.mat-toolbar button:nth-of-type(1) {
+  margin-right: 8px;
+}
+
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  padding: 0 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mat-toolbar button:nth-of-type(1) {
+    margin-right: 3px;
+  }
+  
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    padding: 0 3px;
+  }
+}

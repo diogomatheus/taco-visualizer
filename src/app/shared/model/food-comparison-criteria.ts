@@ -1,4 +1,5 @@
 export class FoodComparisonCriteria {
+
   'general_group': boolean = true;  
   'humidity_percents': boolean = true;
   'energy_kcal': boolean = true;
@@ -68,4 +69,5 @@ export class FoodComparisonCriteria {
   'glycine_g': boolean = true;
   'proline_g': boolean = true;
   'serine_g': boolean = true;
+  
 }
