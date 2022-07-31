@@ -1,0 +1,117 @@
+<h1 class="page-title" i18n>Meal Builder</h1>
+<div class="page-content">
+  <mat-horizontal-stepper #stepper [linear]="true" labelPosition="bottom">
+    <ng-template matStepperIcon="number" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <ng-template matStepperIcon="edit" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <ng-template matStepperIcon="done" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <mat-step [completed]="isFirstStepValid()">
+      <ng-template matStepLabel i18n>General</ng-template>
+      <div class="stepper-buttons">
+        <span class="mat-spacer"></span>
+        <button mat-button (click)="firstStepButtonHandler(stepper)" i18n>Next</button>
+      </div>
+      <mat-card id="meal-information">
+        <mat-card-title i18n>Meal information</mat-card-title>
+        <mat-card-content>
+          <mat-form-field>
+            <input matInput type="time" [(ngModel)]="selectedMealTime" i18n-placeholder placeholder="Meal time">
+          </mat-form-field>
+          <ng-select [(ngModel)]="selectedMealType" i18n-placeholder placeholder="Meal type">
+            <ng-option i18n-value value="Breakfast" i18n>Breakfast</ng-option>
+            <ng-option i18n-value value="Collation" i18n>Collation</ng-option>
+            <ng-option i18n-value value="Lunch" i18n>Lunch</ng-option>
+            <ng-option i18n-value value="Afternoon Snack" i18n>Afternoon Snack</ng-option>
+            <ng-option i18n-value value="Pre-Workout" i18n>Pre-Workout</ng-option>
+            <ng-option i18n-value value="Post-Workout" i18n>Post-Workout</ng-option>
+            <ng-option i18n-value value="Dinner" i18n>Dinner</ng-option>
+          </ng-select>
+        </mat-card-content>
+      </mat-card>
+      <mat-card id="meal-weekdays">
+        <mat-card-title i18n>Weekdays</mat-card-title>
+        <mat-card-content>
+          <mat-button-toggle-group [(ngModel)]="selectedWeekdays" [vertical]="isLayoutDesktopMode" multiple="true">
+            <mat-button-toggle i18n-value value="Monday" i18n>Monday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Tuesday" i18n>Tuesday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Wednesday" i18n>Wednesday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Thursday" i18n>Thursday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Friday" i18n>Friday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Saturday" i18n>Saturday</mat-button-toggle>
+            <mat-button-toggle i18n-value value="Sunday" i18n>Sunday</mat-button-toggle>
+          </mat-button-toggle-group>
+        </mat-card-content>
+      </mat-card>
+    </mat-step>
+    <mat-step [completed]="isSecondStepValid()">
+      <ng-template matStepLabel i18n>Food composition</ng-template>
+      <div class="stepper-buttons">
+        <button mat-button matStepperPrevious i18n>Back</button>
+        <span class="mat-spacer"></span>
+        <button mat-button (click)="secondStepButtonHandler(stepper)" i18n>Next</button>
+      </div>
+      <mat-card id="composition-type">
+        <mat-card-title i18n>Composition type</mat-card-title>
+        <mat-card-content>
+          <mat-button-toggle-group [(ngModel)]="selectedCompositionType" [vertical]="isLayoutDesktopMode">
+            <mat-button-toggle value="calculated" i18n>Calculated meal</mat-button-toggle>
+            <mat-button-toggle value="open" i18n>Open meal</mat-button-toggle>
+          </mat-button-toggle-group>
+        </mat-card-content>
+      </mat-card>
+      <div *ngIf="selectedCompositionType == 'calculated'">
+        <app-food-list [selectable]="true" [quantifiable]="true" [(selectedFoods)]="foodList"></app-food-list>
+      </div>
+      <div *ngIf="selectedCompositionType == 'open'">
+        <mat-card id="meal-description">
+          <mat-card-title i18n>Meal description</mat-card-title>
+          <mat-card-content>
+            <mat-form-field class="full-width">
+              <textarea matInput rows="5" [(ngModel)]="mealDescription" i18n-placeholder placeholder="Description"></textarea>
+            </mat-form-field>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <mat-card id="meal-observation">
+        <mat-card-title i18n>Meal observation</mat-card-title>
+        <mat-card-content>
+          <mat-form-field class="full-width">
+            <textarea matInput rows="5" [(ngModel)]="mealObservation" i18n-placeholder placeholder="Observation"></textarea>
+          </mat-form-field>
+        </mat-card-content>
+      </mat-card>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel i18n>Meal</ng-template>
+      <div class="stepper-buttons no-print">
+        <button mat-button matStepperPrevious i18n>Back</button>
+        <span class="mat-spacer"></span>
+        <button mat-button (click)="lastStepButtonHandler()" i18n>Print</button>
+      </div>
+      <div id="meal-viewer">
+        <div class="text-center">
+          <h2>{{ selectedMealTime }} - {{ selectedMealType }}</h2>
+          <mat-chip-list>
+            <mat-chip *ngFor="let weekday of selectedWeekdays" color="primary" selected>{{ weekday }}</mat-chip>
+          </mat-chip-list>
+        </div>
+        <ng-container *ngIf="selectedCompositionType == 'calculated'">
+          <app-food-list [selectable]="false" [quantifiable]="true" [(selectedFoods)]="foodList"></app-food-list>
+        </ng-container>
+        <ng-container *ngIf="selectedCompositionType == 'open'">
+          <mat-card id="meal-viewer-description">
+            <mat-card-title i18n>Meal description</mat-card-title>
+            <mat-card-content>
+              <p class="pre-wrap">{{ mealDescription }}</p>
+            </mat-card-content>
+          </mat-card>
+        </ng-container>
+        <mat-card id="meal-viewer-observation" *ngIf="mealObservation">
+          <mat-card-title i18n>Meal observation</mat-card-title>
+          <mat-card-content>
+            <p class="pre-wrap">{{ mealObservation }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

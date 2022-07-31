@@ -9,63 +9,105 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-p {
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+h1.page-title {
+  color: #9b59b6;
+  text-align: center;
+  margin-block-start: 1em;
+}
+
+h2.page-subtitle {
+  color: #596275;
+  text-align: center;
+}
+
+div.page-content {
+  width: 98%;
+  margin: auto;
+}
+
+div.page-content p {
   text-align: justify;
 }
 
-p.reference {
+div.page-content p.reference {
   text-align: center;
   font-size: 0.8em;
   margin-top: 50px;
 }
 
-h1.page-title {
-    text-align: center;
-    color: #9b59b6;
+div.page-content .mat-card {
+  margin-top: 30px;
 }
 
-h2.page-subtitle {
-    text-align: left;
-    color: #596275
-}
-
-div.page-content {
-    width: 98%;
-    margin: auto;
-}
-
-span.mat-spacer {
-  flex: 1 1 auto;
-}
-
-.mat-grid-tile .mat-figure.mat-figure {
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.ng-select {
-  width: 100%;
-}
-
-.ng-placeholder {
-  font-size: 14px;
-}
-
-div.page-content div.mat-horizontal-content-container {
+div.page-content .mat-horizontal-content-container {
   overflow: inherit;
 }
 
-div.stepper-buttons {
-    display: flex;
-    box-sizing: border-box;
-    padding: 0 16px;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    white-space: nowrap;
+div.page-content .mat-horizontal-stepper-header {
+  padding: 5px;
 }
 
-div.stepper-buttons button {
-    background-color: #9b59b6;
-    color: white;
+div.page-content .mat-step-label, div.page-content .mat-step-label-selected {
+  font-size: 12px;
+}
+
+div.page-content .ng-select {
+  width: 100%;
+}
+
+div.page-content .ng-placeholder {
+  font-size: 14px;
+}
+
+div.page-content .mat-button-toggle-checked{
+  color: white;
+  background-color: #3f51b5;
+}
+
+div.page-content .mat-chip-list-wrapper {
+  justify-content: center;
+}
+
+div.page-content .stepper-buttons {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 0 15px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+div.page-content .stepper-buttons button {
+  background-color: #9b59b6;
+  color: white;
+}
+
+.mat-spacer {
+  flex: 1 1 auto;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+      display: none !important;
+    }
+
+    div.page-content .mat-horizontal-stepper-header-container, div.page-content .mat-horizontal-stepper-header-container * {
+      display: none !important;
+    }
 }

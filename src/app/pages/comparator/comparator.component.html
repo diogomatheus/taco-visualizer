@@ -1,0 +1,70 @@
+<h1 class="page-title" i18n>Food Comparator</h1>
+<div class="page-content">
+  <mat-horizontal-stepper #stepper [linear]="true" labelPosition="bottom">
+    <ng-template matStepperIcon="number" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <ng-template matStepperIcon="edit" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <ng-template matStepperIcon="done" let-index="index" let-active="active" let-optional="optional">{{index + 1}}</ng-template>
+    <mat-step [completed]="isFirstStepValid()">
+      <form>
+        <ng-template matStepLabel i18n>Food selection</ng-template>
+        <div class="stepper-buttons">
+          <span class="mat-spacer"></span>
+          <button mat-button (click)="firstStepButtonHandler(stepper)" i18n>Compare</button>
+        </div>
+        <div id="food-criteria-container" [@.disabled]="true">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title i18n>Criteria</mat-panel-title>
+              <mat-panel-description i18n>Select the food attributes</mat-panel-description>
+            </mat-expansion-panel-header>
+            <div *ngFor="let attributeGroup of attributeGroups" class="food-comparison-criteria-group">
+              <mat-checkbox data-criteria-type="group" name="{{ attributeGroup.name }}_group" [(ngModel)]="foodComparisonCriteria[attributeGroup.name + '_group']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}">
+                {{ attributeGroup.label | i18n:'food-attribute-group-' + attributeGroup.name }}
+              </mat-checkbox>
+              <div class="food-comparison-criteria-items">
+                <div *ngFor="let attribute of attributeGroup.attributes" class="food-comparison-criteria-item">
+                  <mat-checkbox data-criteria-type="item" [attr.data-criteria-group]="attributeGroup.name + '_group'" [attr.name]="attribute.name" [(ngModel)]="foodComparisonCriteria[attribute.name]" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}">
+                    {{ attribute.label | i18n:'food-attribute-' + attribute.name }}
+                  </mat-checkbox>
+                </div>
+              </div>
+            </div>
+          </mat-expansion-panel>
+        </div>
+        <app-food-list [selectable]="true" [quantifiable]="false" [(selectedFoods)]="foodList"></app-food-list>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel i18n>Comparison</ng-template>
+      <div class="stepper-buttons">
+        <button mat-button matStepperPrevious i18n>Back</button>
+        <span class="mat-spacer"></span>
+      </div>
+      <div id="food-comparison-container" *ngIf="foodList.length">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th *ngFor="let food of foodList">{{ food.description }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <ng-container *ngFor="let attributeGroup of attributeGroups">
+              <tr>
+                <td class="group" [attr.colspan]="foodList.length + 1" *ngIf="foodComparisonCriteria[attributeGroup.name + '_group']">
+                  <strong>{{ attributeGroup.label | i18n:'food-attribute-group-' + attributeGroup.name }}</strong>
+                </td>
+              </tr>
+              <ng-container *ngFor="let attribute of attributeGroup.attributes">
+                <tr *ngIf="foodComparisonCriteria[attribute.name]">
+                  <td>{{ attribute.label | i18n:'food-attribute-' + attribute.name }}</td>
+                  <td *ngFor="let food of foodList">{{ food[attribute.name] | foodAttribute:attribute.formatter }}</td>
+                </tr>
+              </ng-container>
+            </ng-container>
+          </tbody>
+        </table>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

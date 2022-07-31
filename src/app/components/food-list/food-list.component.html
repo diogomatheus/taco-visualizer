@@ -1,0 +1,49 @@
+<mat-card class="card-container">
+  <mat-card-title i18n>Food list</mat-card-title>
+  <mat-card-subtitle *ngIf="selectable" i18n>Select the foods</mat-card-subtitle>
+  <mat-card-content>
+    <div class="food-list-form" *ngIf="selectable">
+      <ng-select #foodListNgSelect [(ngModel)]="selectedFoodId" [editableSearchTerm]="true" [ngModelOptions]="{standalone: true}" i18n-placeholder placeholder="Select a food">
+        <ng-option [value]="item.id" [disabled]="item.disabled" *ngFor="let item of foods">
+          {{ item.id }} - {{ item.description }}
+        </ng-option>
+      </ng-select>
+      <button mat-mini-fab (click)="addFood(foodListNgSelect)" i18n-matTooltip matTooltip="Add">
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>   
+    <table mat-table [dataSource]="selectedFoods" class="food-list-table" *ngIf="selectedFoods.length">
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let food">{{ food.id }}</td>
+      </ng-container>
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef i18n>Description</th>
+        <td mat-cell *matCellDef="let food">{{ food.description }}</td>
+      </ng-container>
+      <ng-container matColumnDef="measure">
+        <th mat-header-cell *matHeaderCellDef i18n>Measure</th>
+        <td mat-cell *matCellDef="let food">{{ food.measure }}</td>
+      </ng-container>
+      <ng-container matColumnDef="unit">
+        <th mat-header-cell *matHeaderCellDef i18n>Unit</th>
+        <td mat-cell *matCellDef="let food">
+          <ng-container *ngIf="selectable == true">
+            <input matInput type="number" [(ngModel)]="food.unit">
+          </ng-container>
+          <ng-container *ngIf="selectable == false">{{ food.unit }}</ng-container>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef i18n>Actions</th>
+        <td mat-cell *matCellDef="let food">
+          <button mat-icon-button (click)="removeFood(food)" i18n-matTooltip matTooltip="Remove">
+            <mat-icon aria-hidden="false">delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="tableColumns"></tr>
+      <tr mat-row *matRowDef="let food; columns: tableColumns;">
+    </table>
+  </mat-card-content>
+</mat-card>

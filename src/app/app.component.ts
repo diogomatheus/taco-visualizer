@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgSelectConfig } from '@ng-select/ng-select';
-import { I18nService } from './services/i18n.service';
+
+import { I18nService } from 'src/app/shared/service/i18n.service';
 
 @Component({
   selector: 'app-root',

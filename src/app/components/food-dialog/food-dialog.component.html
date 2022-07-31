@@ -1,0 +1,14 @@
+<h1 class="page-title">{{ row.description }}</h1>
+<h2 class="page-subtitle">{{ row.category }}</h2>
+<mat-dialog-content>
+  <mat-tab-group>
+    <mat-tab *ngFor="let attributeGroup of attributeGroups" label="{{ attributeGroup.label | i18n:'food-attribute-group-' + attributeGroup.name }}">
+      <mat-list role="list">
+        <mat-list-item *ngFor="let attribute of attributeGroup.attributes" role="listitem">
+          <strong>{{ attribute.label | i18n:'food-attribute-' + attribute.name }}</strong>:&nbsp;
+          {{ row[attribute.name] | foodAttribute:attribute.formatter }}
+        </mat-list-item>
+      </mat-list>
+    </mat-tab>
+  </mat-tab-group>
+</mat-dialog-content>

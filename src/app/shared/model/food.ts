@@ -69,6 +69,8 @@ export class Food {
   'glycine_g': any;
   'proline_g': any;
   'serine_g': any;
-  'disabled'?: boolean;
+  'measure': string;
+  'unit': number;
+  'disabled': boolean;
 
 }

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="pt-BR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="42f40ef5928833c794da1cd82958ca787293989a" datatype="html">
+        <source>Comparator</source>
+        <target>Comparador</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36b9bd01bffb6b58c16ee57da2b734eeaf204534" datatype="html">
+        <source>Builder</source>
+        <target>Construtor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>Sobre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="00da233d8f48a931dafc95e6c2c1c143565182f1" datatype="html">
+        <source>Brazilian Table of Food Composition (TACO) - Version 4</source>
+        <target>Tabela Brasileira de Composição de Alimentos (TACO) - Versão 4</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8980a7143e11535f3cb1d7fca525cc182b569b8c" datatype="html">
+        <source>Select a category</source>
+        <target>Selecione uma categoria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Descrição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c559ed25f2ad8b34bcaeb7130e0187aeb2ad56d2" datatype="html">
+        <source>Energy (kcal)</source>
+        <target>Energia (kcal)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b21e67a97e211d8786f61c0b5183874cfd0474a6" datatype="html">
+        <source>Lipid (g)</source>
+        <target>Lipídeos (g)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25271804e39e32cc48c72d1920013bfe7b80c7c6" datatype="html">
+        <source>Protein (g)</source>
+        <target>Proteína (g)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d85465e27177d6bee92ff3d5b328ea844fb0c91f" datatype="html">
+        <source>Carbohydrate (g)</source>
+        <target>Carboidrato (g)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="030b4423b92167200e39519599f9b863b4f7c62c" datatype="html">
+        <source>Actions</source>
+        <target>Ações</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d06ced1330c1dbe74981ccf205f97f4386057b08" datatype="html">
+        <source>View information</source>
+        <target>Visualizar informações</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d0d58431a2475773a4560ff231a7201da61a6d88" datatype="html">
+        <source>Reference: The University of Campinas (UNICAMP), 2011, Brazilian Table of Food Composition, 4 ed., 161p. Available in: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Access in: 20 May 2021, 12:00:00.</source>
+        <target>Referência: Universidade Estadual de Campinas (UNICAMP), 2011, Tabela Brasileira de Composição de Alimentos, 4 ed., 161p. Disponível em: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://www.nepa.unicamp.br/taco/tabela.php?ativo=tabela<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Acesso em: 20 mai. 2021, 12:00:00.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb17d7509aeb718320641da375b514f1ddbf720f" datatype="html">
+        <source>Food Comparator</source>
+        <target>Comparador de Alimentos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2524ea34b389d8bfe197cd87c932f83cad1550ba" datatype="html">
+        <source>Food selection</source>
+        <target>Seleção de alimentos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c6f717805130ade341de7ea2977e1b9c212276e" datatype="html">
+        <source>Compare</source>
+        <target>Comparar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3afbf0e268816db2bcc70638d61281e6c8b39a5d" datatype="html">
+        <source>Criteria</source>
+        <target>Critério</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="480779266473d0cc821c87312212e54f4bbabaad" datatype="html">
+        <source>Select the food attributes</source>
+        <target>Selecione os atributos de alimento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9cece0ed974f75c69c8db7fa805c3c40f91405e" datatype="html">
+        <source>Comparison</source>
+        <target>Comparação</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
+        <source>Back</source>
+        <target>Voltar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/comparator/comparator.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8cc4096c54782df5c53907bcd217c020491fd9d" datatype="html">
+        <source>Meal Builder</source>
+        <target>Construtor de Refeições</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d53f64033c4b76fdc1076ba15955d913209866c" datatype="html">
+        <source>General</source>
+        <target>Geral</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <target>Próximo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="675ee4ae627c68ccb2b4a02274fbfdde61cea7b2" datatype="html">
+        <source>Meal information</source>
+        <target>Informações da refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e210c7246d30c18c1000b932d7426223e97e0ab0" datatype="html">
+        <source>Meal time</source>
+        <target>Hora da refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a07b9dfd284a336b3ad8a582ad6eae878be594fb" datatype="html">
+        <source>Breakfast</source>
+        <target>Café da manhã</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e912112cfd2f686b8e6f40d6878a00381bedcf07" datatype="html">
+        <source>Collation</source>
+        <target>Colação</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c586621e6d63685606c9183ee510490613c64b9b" datatype="html">
+        <source>Lunch</source>
+        <target>Almoço</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe48391e56f6be195583ed231bd12e7a0ccd7145" datatype="html">
+        <source>Afternoon Snack</source>
+        <target>Lanche da tarde</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c92484478f40406e741bc9f69ea48b7ecade312" datatype="html">
+        <source>Pre-Workout</source>
+        <target>Pré-treino</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e65683a9a1fabbac2401ac964396376633d572e5" datatype="html">
+        <source>Post-Workout</source>
+        <target>Pós-treino</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="066b0936fe71f2f8b48fc8394b7894ec5c13b143" datatype="html">
+        <source>Dinner</source>
+        <target>Jantar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24ec8f44219e83df80a1108c86cd10dcde9f84f6" datatype="html">
+        <source>Meal type</source>
+        <target>Tipo de refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0675241678683a3aa70553bb2f56e92468e98475" datatype="html">
+        <source>Weekdays</source>
+        <target>Dias da semana</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43c57a7cbebf57eb33a2eae5e994c91d9887596" datatype="html">
+        <source>Monday</source>
+        <target>Segunda-feira</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48a2a35957ce394eb2c59ae35c99642360af70ee" datatype="html">
+        <source>Tuesday</source>
+        <target>Terça-feira</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0af441f9ba8b82952b9ec10fb8c62e8fec67df9" datatype="html">
+        <source>Wednesday</source>
+        <target>Quarta-feira</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55c583b99c809818ec27df065ccf05357a6ac10b" datatype="html">
+        <source>Thursday</source>
+        <target>Quinta-feira</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e91b54925dc5f490753f60f53ef6f8b4609e6215" datatype="html">
+        <source>Friday</source>
+        <target>Sexta-feira</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0d2dd391a3eca8e841a5d0e035cd268280eb68e" datatype="html">
+        <source>Saturday</source>
+        <target>Sábado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8339364b054610983b7f2334bb807fff7613bddf" datatype="html">
+        <source>Sunday</source>
+        <target>Domingo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cc5200194d2687730c072c3926a3fff0eefe217" datatype="html">
+        <source>Food composition</source>
+        <target>Composição de alimento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dd8fdd07aab4c39e12943acc5393c3816cf35a5" datatype="html">
+        <source>Composition type</source>
+        <target>Tipo de composição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3e9aceacbab6c7463b21cd209980623327ce362" datatype="html">
+        <source>Calculated meal</source>
+        <target>Refeição calculada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f41de75b8c091f927ddbe4508f42f2bc5b63d5bc" datatype="html">
+        <source>Open meal</source>
+        <target>Refeição aberta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afec615738e44a11b74fc1d2766436062a024023" datatype="html">
+        <source>Meal description</source>
+        <target>Descrição da refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a2b3b1ec3a76975a65664879afe9a20a010fd33" datatype="html">
+        <source>Meal observation</source>
+        <target>Observações da refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2169ac89595ea71e589b9e3bba75a51f20c4662e" datatype="html">
+        <source>Observation</source>
+        <target>Observação</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36cb5657a07b7ed8c265b0e4ff1a97135c02295b" datatype="html">
+        <source>Meal</source>
+        <target>Refeição</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e592cd3fe3c9119c83e6dd5cba89a0841cd35959" datatype="html">
+        <source>Print</source>
+        <target>Imprimir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/builder/builder.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f13b0a06de4d49619bc68f3805f4bd4f94ff7905" datatype="html">
+        <source>The TACO (Brazilian Table of Food Composition) project, coordinated by the University of Campinas (UNICAMP), is an initiative to offer data on an expressive number of nutrients in national and regional foods obtained through representative sampling and analyzes carried out only by laboratories with analytical competence proven by interlaboratory studies, according to international criteria.</source>
+        <target>O projeto TACO (Tabela Brasileira de Composição de Alimentos), coordenado pela Universidade Estadual de Campinas (UNICAMP), é uma iniciativa para oferecer dados de um expressivo número de nutrientes em alimentos nacionais e regionais obtidos por meio de amostragem representativa e análises realizadas somente por laboratórios com competência analítica comprovada por estudos interlaboratoriais, segundo critérios internacionais.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb7729215284f8c6362153fdcc37f1cc2c7ae74a" datatype="html">
+        <source>Knowledge of the composition of the food consumed in Brazil is essential to achieve food security in the country. Food composition tables are basic pillars for nutritional education, quality control and food safety, assessment and adequacy of nutrient intake by individuals or populations. Through them, public health officials can establish nutritional goals and food guides that lead to a healthier diet. At the same time that they provide subsidies to researchers of epidemiological studies that relate the diet to the risks of diseases or professionals who need this information for clinical purposes, these data can guide agriculture and the food industries in the development of new products and support policies protection of the environment and biodiversity. They are also necessary for nutrition labeling to assist consumers in choosing food. In addition, in a highly globalized and competitive market, data on food composition serve to encourage national and international food commercialization.</source>
+        <target>O conhecimento da composição dos alimentos consumidos no Brasil é fundamental para o alcance da segurança alimentar no país. Tabelas de composição de alimentos são pilares básicos para educação nutricional, controle da qualidade e segurança dos alimentos, avaliação e adequação da ingestão de nutrientes de indivíduos ou populações. Por meio delas, autoridades de saúde pública podem estabelecer metas nutricionais e guias alimentares que levem a uma dieta mais saudável. Ao mesmo tempo que, forneçam subsídios aos pesquisadores de estudos epidemiológicos que relacionam a dieta com os riscos de doenças ou profissionais que necessitam destas informações para fins clínicos, estes dados podem orientar a agricultura e as indústrias de alimentos no desenvolvimento de novos produtos e apoiar políticas de proteção ao meio ambiente e da biodiversidade. São necessárias também para a rotulagem nutricional a fim de auxiliar consumidores na escolha dos alimentos. Adicionalmente, em um mercado altamente globalizado e competitivo, dados sobre composição de alimentos servem para incentivar a comercialização nacional e internacional de alimentos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e037b49fb40b20a3091a13917e28103b68fc909" datatype="html">
+        <source>Data on the composition of food consumed in different regions of Brazil provide basic elements for nutritional guidance actions based on principles of local development and diversification of food, as opposed to the massification of a monotonous and unbalanced diet. To avoid wrong decisions or conclusions, food composition tables need to be reliable, up-to-date and as complete as possible.</source>
+        <target>Dados sobre a composição de alimentos consumidos nas diferentes regiões do Brasil fornecem elementos básicos para ações de orientação nutricional baseada em princípios de desenvolvimento local e diversificação da alimentação, em contraposição à massificação de uma dieta monótona e desequilibrada. Para evitar decisões ou conclusões equivocadas, as tabelas de composição de alimentos precisam ser confiáveis, atualizadas e o mais completas possíveis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addc14c2e20d4dca1e70904bbc35fb443cd026c3" datatype="html">
+        <source>The TACO project is currently in its fourth edition. In the first version, 198 foods were counted. In the most updated edition there are 597 items.</source>
+        <target>O projeto TACO está, atualmente, na quarta edição. Na primeira versão, estavam contabilizados 198 alimentos. Já na edição mais atualizada são 597 itens.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ed8d1b04254270ed9b31950e1c0b29d08ca2ac3" datatype="html">
+        <source>Food list</source>
+        <target>Lista de alimentos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44bf1550b767bb62519b4728d7e5171d08235aad" datatype="html">
+        <source>Select the foods</source>
+        <target>Selecione os alimentos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3660fd39b5c57ff6637aeb01c2385fbd4e58ba42" datatype="html">
+        <source>Select a food</source>
+        <target>Selecione um alimento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <target>Adicionar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9310eb7d161a1cd56607033f696ab6039337e609" datatype="html">
+        <source>Measure</source>
+        <target>Medida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4cf0728fcf2b0af16de94c2f57dafddcc0ff1a59" datatype="html">
+        <source>Unit</source>
+        <target>Unidade</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="019d4bd6a5690f0cfa0ecf346a4e6bf7f0d8debb" datatype="html">
+        <source>Remove</source>
+        <target>Remover</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/food-list/food-list.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mat-paginator-intl-items-per-page" datatype="html">
+        <source>Items per page</source>
+        <target>Itens por página</target>
+      </trans-unit>
+      <trans-unit id="mat-paginator-intl-first-page" datatype="html">
+        <source>First page</source>
+        <target>Primeira página</target>
+      </trans-unit>
+      <trans-unit id="mat-paginator-intl-last-page" datatype="html">
+        <source>Last page</source>
+        <target>Última página</target>
+      </trans-unit>
+      <trans-unit id="mat-paginator-intl-next-page" datatype="html">
+        <source>Next page</source>
+        <target>Próxima página</target>
+      </trans-unit>
+      <trans-unit id="mat-paginator-intl-previous-page" datatype="html">
+        <source>Previous page</source>
+        <target>Página anterior</target>
+      </trans-unit>
+      <trans-unit id="ng-select-not-found" datatype="html">
+        <source>Option not found</source>
+        <target>Opção não encontrada</target>
+      </trans-unit>
+      <trans-unit id="ng-select-clear-all" datatype="html">
+        <source>Clear</source>
+        <target>Limpar</target>
+      </trans-unit>
+      <trans-unit id="page-title-home" datatype="html">
+        <source>Food Visualizer - TACO V4</source>
+        <target>Visualizador de Alimentos - TACO V4</target>
+      </trans-unit>
+      <trans-unit id="page-title-comparator" datatype="html">
+        <source>Food Comparator - TACO V4</source>
+        <target>Comparador de Alimentos - TACO V4</target>
+      </trans-unit>
+      <trans-unit id="page-title-builder" datatype="html">
+        <source>Meal Builder - TACO V4</source>
+        <target>Construtor de Refeições - TACO V4</target>
+      </trans-unit>
+      <trans-unit id="page-title-about" datatype="html">
+        <source>About - TACO V4</source>
+        <target>Sobre - TACO V4</target>
+      </trans-unit>
+      <trans-unit id="food-comparator-first-validation-message" datatype="html">
+        <source>Please select at least one criteria and two foods.</source>
+        <target>Por favor, selecione pelo menos um critério e dois alimentos.</target>
+      </trans-unit>
+      <trans-unit id="meal-builder-first-validation-message" datatype="html">
+        <source>Please fill the general information.</source>
+        <target>Por favor, preencha as informações gerais.</target>
+      </trans-unit>
+      <trans-unit id="meal-builder-second-validation-message" datatype="html">
+        <source>Please fill the food composition information.</source>
+        <target>Por favor, preencha as informações de composição dos alimentos.</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-group-general" datatype="html">
+        <source>General</source>
+        <target>Geral</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-humidity_percents" datatype="html">
+        <source>Humidity (%)</source>
+        <target>Umidade (%)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-energy_kcal" datatype="html">
+        <source>Energy (kcal)</source>
+        <target>Energia (kcal)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-energy_kj" datatype="html">
+        <source>Energy (kj)</source>
+        <target>Energia (kj)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-protein_g" datatype="html">
+        <source>Protein (g)</source>
+        <target>Proteína (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-lipid_g" datatype="html">
+        <source>Lipid (g)</source>
+        <target>Lipídeos (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-cholesterol_mg" datatype="html">
+        <source>Cholesterol (mg)</source>
+        <target>Colesterol (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-carbohydrate_g" datatype="html">
+        <source>Carbohydrate (g)</source>
+        <target>Carboidrato (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-fiber_g" datatype="html">
+        <source>Fiber (g)</source>
+        <target>Fibra alimentar (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-ashes_g" datatype="html">
+        <source>Ashes (g)</source>
+        <target>Cinzas (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-calcium_mg" datatype="html">
+        <source>Calcium (mg)</source>
+        <target>Cálcio (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-magnesium_mg" datatype="html">
+        <source>Magnesium (mg)</source>
+        <target>Magnésio (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-manganese_mg" datatype="html">
+        <source>Manganese (mg)</source>
+        <target>Manganês (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-phosphorus_mg" datatype="html">
+        <source>Phosphorus (mg)</source>
+        <target>Fósforo (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-iron_mg" datatype="html">
+        <source>Iron (mg)</source>
+        <target>Ferro (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-sodium_mg" datatype="html">
+        <source>Sodium (mg)</source>
+        <target>Sódio (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-potassium_mg" datatype="html">
+        <source>Potassium (mg)</source>
+        <target>Potássio (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-copper_mg" datatype="html">
+        <source>Copper (mg)</source>
+        <target>Cobre (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-zinc_mg" datatype="html">
+        <source>Zinc (mg)</source>
+        <target>Zinco (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-retinol_mcg" datatype="html">
+        <source>Retinol (mcg)</source>
+        <target>Retinol (mcg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-re_mcg" datatype="html">
+        <source>RE (mcg)</source>
+        <target>RE (mcg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-rae_mcg" datatype="html">
+        <source>RAE (mcg)</source>
+        <target>RAE (mcg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-thiamine_mg" datatype="html">
+        <source>Thiamine (mg)</source>
+        <target>Tiamina (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-riboflavin_mg" datatype="html">
+        <source>Riboflavin (mg)</source>
+        <target>Riboflavina (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-pyridoxine_mg" datatype="html">
+        <source>Pyridoxine (mg)</source>
+        <target>Piridoxina (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-niacin_mg" datatype="html">
+        <source>Niacin (mg)</source>
+        <target>Niacina (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-vitaminC_mg" datatype="html">
+        <source>Vitamin C (mg)</source>
+        <target>Vitamina C (mg)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-group-fatty_acids" datatype="html">
+        <source>Fatty acids</source>
+        <target>Ácidos graxos</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-saturated_g" datatype="html">
+        <source>Saturated (g)</source>
+        <target>Saturados (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-monounsaturated_g" datatype="html">
+        <source>Monounsaturated (g)</source>
+        <target>Monoinsaturados (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-polyunsaturated_g" datatype="html">
+        <source>Polyunsaturated (g)</source>
+        <target>Poliinsaturados (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-12:0_g" datatype="html">
+        <source>12:0 (g)</source>
+        <target>12:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-14:0_g" datatype="html">
+        <source>14:0 (g)</source>
+        <target>14:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-16:0_g" datatype="html">
+        <source>16:0 (g)</source>
+        <target>16:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:0_g" datatype="html">
+        <source>18:0 (g)</source>
+        <target>18:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-20:0_g" datatype="html">
+        <source>20:0 (g)</source>
+        <target>20:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-22:0_g" datatype="html">
+        <source>22:0 (g)</source>
+        <target>22:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-24:0_g" datatype="html">
+        <source>24:0 (g)</source>
+        <target>24:0 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-14:1_g" datatype="html">
+        <source>14:1 (g)</source>
+        <target>14:1 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-16:1_g" datatype="html">
+        <source>16:1 (g)</source>
+        <target>16:1 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:1_g" datatype="html">
+        <source>18:1 (g)</source>
+        <target>18:1 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-20:1_g" datatype="html">
+        <source>20:1 (g)</source>
+        <target>20:1 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:2 n-6_g" datatype="html">
+        <source>18:2 n-6 (g)</source>
+        <target>18:2 n-6 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:3 n-3_g" datatype="html">
+        <source>18:3 n-3 (g)</source>
+        <target>18:3 n-3 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-20:4_g" datatype="html">
+        <source>20:4 (g)</source>
+        <target>20:4 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-20:5_g" datatype="html">
+        <source>20:5 (g)</source>
+        <target>20:5 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-22:5_g" datatype="html">
+        <source>22:5 (g)</source>
+        <target>22:5 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-22:6_g" datatype="html">
+        <source>22:6 (g)</source>
+        <target>22:6 (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:1t_g" datatype="html">
+        <source>18:1t (g)</source>
+        <target>18:1t (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-18:2t_g" datatype="html">
+        <source>18:2t (g)</source>
+        <target>18:2t (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-group-amino_acids" datatype="html">
+        <source>Amino acids</source>
+        <target>Aminoácidos</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-tryptophan_g" datatype="html">
+        <source>Tryptophan (g)</source>
+        <target>Triptofano (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-threonine_g" datatype="html">
+        <source>Threonine (g)</source>
+        <target>Treonina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-isoleucine_g" datatype="html">
+        <source>Isoleucine (g)</source>
+        <target>Isoleucina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-leucine_g" datatype="html">
+        <source>Leucine (g)</source>
+        <target>Leucina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-lysine_g" datatype="html">
+        <source>Lysine (g)</source>
+        <target>Lisina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-methionine_g" datatype="html">
+        <source>Methionine (g)</source>
+        <target>Metionina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-cystine_g" datatype="html">
+        <source>Cystine (g)</source>
+        <target>Cistina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-phenylalanine_g" datatype="html">
+        <source>Phenylalanine (g)</source>
+        <target>Fenilalanina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-tyrosine_g" datatype="html">
+        <source>Tyrosine (g)</source>
+        <target>Tirosina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-valine_g" datatype="html">
+        <source>Valine (g)</source>
+        <target>Valina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-arginine_g" datatype="html">
+        <source>Arginine (g)</source>
+        <target>Arginina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-histidine_g" datatype="html">
+        <source>Histidine (g)</source>
+        <target>Histidina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-alanine_g" datatype="html">
+        <source>Alanine (g)</source>
+        <target>Alanina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-aspartic_g" datatype="html">
+        <source>Aspartic (g)</source>
+        <target>Ácido aspártico (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-glutamic_g" datatype="html">
+        <source>Glutamic (g)</source>
+        <target>Ácido glutâmico (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-glycine_g" datatype="html">
+        <source>Glycine (g)</source>
+        <target>Glicina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-proline_g" datatype="html">
+        <source>Proline (g)</source>
+        <target>Prolina (g)</target>
+      </trans-unit>
+      <trans-unit id="food-attribute-serine_g" datatype="html">
+        <source>Serine (g)</source>
+        <target>Serina (g)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
