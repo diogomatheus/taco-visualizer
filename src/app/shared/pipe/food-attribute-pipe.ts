@@ -10,9 +10,8 @@ export class FoodAttributePipe implements PipeTransform {
   ) {}
 
   transform(value: any, formatter: string): any {
-    if (typeof value === 'string') {
+    if (typeof value === 'string')
       return value;
-    }
 
     switch (formatter) {
       case 'percentage':

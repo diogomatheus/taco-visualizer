@@ -10,12 +10,12 @@ export class I18nService {
   i18nXliff: any = null;
     
   constructor(
-    private _httpClient: HttpClient,
-    @Inject(LOCALE_ID) public locale: string
+    @Inject(LOCALE_ID) public locale: string,
+    private _httpClient: HttpClient
   ) {}
 
   get(key: string): string {
-    const i18nNode = this.i18nXliff.i18nNodesByMsgId[key];
+    const i18nNode: any = this.i18nXliff.i18nNodesByMsgId[key];
     return (i18nNode && i18nNode[0]) ? i18nNode[0].value : null;
   }
 

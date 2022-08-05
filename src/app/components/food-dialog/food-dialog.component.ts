@@ -19,8 +19,10 @@ export class FoodDialogComponent implements OnInit, OnDestroy {
     private _foodAttributeGroupService: FoodAttributeGroupService
   ) {}
 
-  ngOnInit() {
-    this.attributeGroups = this._foodAttributeGroupService.getFoodAttributeGroups();
+  ngOnInit(): void {
+    this.attributeGroups = this._foodAttributeGroupService
+      .getFoodAttributeGroups()
+      .map(item => ({...item}));
   }
 
   ngOnDestroy(): void {}

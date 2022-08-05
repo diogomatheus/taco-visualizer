@@ -15,7 +15,7 @@ export class AboutComponent implements OnInit, OnDestroy {
     private _i18nService: I18nService
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this._titleService.setTitle(this._i18nService.get('page-title-about'));
   }
 

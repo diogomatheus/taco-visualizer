@@ -1,4 +1,4 @@
-export class FoodAttribute {
+export interface FoodAttribute {
 
   'name': string;
   'label': string;

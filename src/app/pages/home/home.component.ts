@@ -35,11 +35,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     private _foodService: FoodService
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this._titleService.setTitle(this._i18nService.get('page-title-home'));
-    
     this.categories = this._foodCategoryService.getCategories();
-    this.foods = this._foodService.getFoods();
+    this.foods = this._foodService
+      .getFoods()
+      .map(item => ({...item}));
+
     this.dataSource = new MatTableDataSource(this.foods);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
@@ -49,26 +51,21 @@ export class HomeComponent implements OnInit, OnDestroy {
     };
   }
 
-  onChangeCategoryFilter($event) {
-    let foods = this.foods;
-    if (this.selectedCategory) {
-      foods = this.foods.filter((item) => item.category == this.selectedCategory);
-    }
-
-    this.dataSource.data = foods;
+  onChangeCategoryHandler(value: string): void {
+    this.dataSource.data = value ? this.foods.filter((item) => item.category == value) : this.foods;
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
   }
-
-  onChangeDescriptionFilter(value: string) {
+  
+  onChangeDescriptionHandler(value: string): void {
     this.dataSource.filter = value;
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
   }
-
-  onClickView(food) {
+  
+  viewButtonHandler(food: Food): void {
     this._dialog.open(
       FoodDialogComponent,
       {

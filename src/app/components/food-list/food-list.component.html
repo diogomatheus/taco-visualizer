@@ -8,7 +8,7 @@
           {{ item.id }} - {{ item.description }}
         </ng-option>
       </ng-select>
-      <button mat-mini-fab (click)="addFood(foodListNgSelect)" i18n-matTooltip matTooltip="Add">
+      <button mat-mini-fab (click)="addFoodButtonHandler(foodListNgSelect)" i18n-matTooltip matTooltip="Add">
         <mat-icon>add</mat-icon>
       </button>
     </div>   
@@ -37,7 +37,7 @@
       <ng-container matColumnDef="actions">
         <th mat-header-cell *matHeaderCellDef i18n>Actions</th>
         <td mat-cell *matCellDef="let food">
-          <button mat-icon-button (click)="removeFood(food)" i18n-matTooltip matTooltip="Remove">
+          <button mat-icon-button (click)="removeFoodButtonHandler(food)" i18n-matTooltip matTooltip="Remove">
             <mat-icon aria-hidden="false">delete</mat-icon>
           </button>
         </td>

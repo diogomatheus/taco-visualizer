@@ -25,49 +25,50 @@ export class BuilderComponent implements OnInit, OnDestroy {
   mealObservation: string;
 
   constructor(
-    private breakpointObserver: BreakpointObserver,
+    private _breakpointObserver: BreakpointObserver,
     private _titleService: Title,
     private _i18nService: I18nService,
     private _snackBar: MatSnackBar
   ) {
-    this.breakpointObserver.observe(["(max-width: 992px)"]).subscribe((result: BreakpointState) => {
-      this.isLayoutDesktopMode = result.matches;
-    });
+    this._breakpointObserver
+      .observe(["(max-width: 992px)"])
+      .subscribe((result: BreakpointState) => {
+        this.isLayoutDesktopMode = result.matches;
+      });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this._titleService.setTitle(this._i18nService.get('page-title-builder'));
-    
     this.foodList = [];
   }
 
-  firstStepButtonHandler(stepper: MatStepper) {
+  firstStepButtonHandler(stepper: MatStepper): void {
     if (this.isFirstStepValid()) {
       stepper.next();
     } else {
-      const icon = '⚠️';
-      const message = this._i18nService.get("meal-builder-first-validation-message");
+      const icon: string = '⚠️';
+      const message: string = this._i18nService.get("meal-builder-first-validation-message");
       this._snackBar.open(`${icon} ${message}`, '', { duration: 3500 });
     }
   }
 
-  isFirstStepValid() {
+  isFirstStepValid(): boolean {
     return (this.selectedMealTime && this.selectedMealTime.trim())
       && (this.selectedMealType && this.selectedMealType.trim())
       && (Array.isArray(this.selectedWeekdays) && this.selectedWeekdays.length > 0);
   }
 
-  secondStepButtonHandler(stepper: MatStepper) {
+  secondStepButtonHandler(stepper: MatStepper): void {
     if (this.isSecondStepValid()) {
       stepper.next();
     } else {
-      const icon = '⚠️';
-      const message = this._i18nService.get("meal-builder-second-validation-message");
+      const icon: string = '⚠️';
+      const message: string = this._i18nService.get("meal-builder-second-validation-message");
       this._snackBar.open(`${icon} ${message}`, '', { duration: 3500 });
     }
   }
 
-  isSecondStepValid() {
+  isSecondStepValid(): any {
     if (this.selectedCompositionType === 'calculated') {
       return (Array.isArray(this.foodList) && this.foodList.length > 0);
     } else {
@@ -75,7 +76,7 @@ export class BuilderComponent implements OnInit, OnDestroy {
     }
   }
 
-  lastStepButtonHandler() {
+  lastStepButtonHandler(): void {
     window.print();
   }
 

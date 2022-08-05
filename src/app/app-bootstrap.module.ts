@@ -6,14 +6,14 @@ import { FoodService } from 'src/app/shared/service/food.service';
 import { FoodAttributeGroupService } from 'src/app/shared/service/food-attribute-group.service';
 
 export function bootstrap(
-  _i18nService: I18nService,
-  _foodService: FoodService,
-  _foodAttributeGroupService: FoodAttributeGroupService
+  i18nService: I18nService,
+  foodService: FoodService,
+  foodAttributeGroupService: FoodAttributeGroupService
 ) {
   return () => Promise.all([
-    _i18nService.loadI18nXliff(),
-    _foodService.loadFoods(),
-    _foodAttributeGroupService.loadFoodAttributeGroups()
+    i18nService.loadI18nXliff(),
+    foodService.loadFoods(),
+    foodAttributeGroupService.loadFoodAttributeGroups()
   ]);
 }
 

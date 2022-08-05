@@ -1,6 +1,6 @@
 import { FoodAttribute } from 'src/app/shared/model/food-attribute';
 
-export class FoodAttributeGroup {
+export interface FoodAttributeGroup {
 
   'name': string;
   'label': string;

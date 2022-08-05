@@ -17,22 +17,23 @@ export class FoodListComponent implements OnInit, OnDestroy {
   @Input() selectedFoods: Food[];
   @Output() selectedFoodsChange = new EventEmitter<Food[]>();
 
-  foods: Food[] = [];
+  foods: Food[];
   selectedFoodId: number;
   tableColumns: string[];
 
   constructor(private _foodService: FoodService) {}
 
-  ngOnInit() {
-    const originalFoods = this._foodService.getFoods();
-    originalFoods.forEach(element => this.foods.push(Object.assign({}, element)));
-    this.selectedFoods = (this.selectedFoods === null || typeof this.selectedFoods === 'undefined') ? [] : this.selectedFoods;
-    this.tableColumns = this.getTableColumns();
+  ngOnInit(): void {
+    this.foods = this._foodService
+      .getFoods()
+      .map(item => ({...item}));
+    this.selectedFoods = this.selectedFoods || [];
+    this.tableColumns = this._getTableColumns();
   }
-
-  addFood(foodListNgSelect: NgSelectComponent) {
+  
+  addFoodButtonHandler(foodListNgSelect: NgSelectComponent): void {
     if (this.selectedFoodId) {
-      const foodIndex = this.foods.findIndex(element => element.id === this.selectedFoodId);
+      const foodIndex: number = this.foods.findIndex(element => element.id === this.selectedFoodId);
       if (foodIndex !== -1 && this.foods[foodIndex] !== undefined) {
         this.foods[foodIndex].disabled = true;
         this.selectedFoods = this.selectedFoods.concat([this.foods[foodIndex]]);
@@ -43,24 +44,24 @@ export class FoodListComponent implements OnInit, OnDestroy {
     }
   }
 
-  removeFood(food: Food) {
+  removeFoodButtonHandler(food: Food): void {
     this.selectedFoods = this.selectedFoods.filter(element => element.id !== food.id);
     this.selectedFoodsChange.emit(this.selectedFoods);
 
-    const foodIndex = this.foods.findIndex(element => element.id === food.id);
+    const foodIndex: number = this.foods.findIndex(element => element.id === food.id);
     if (foodIndex !== -1) {
       food.disabled = false;
       this.foods[foodIndex] = food;
     }
   }
 
-  getTableColumns() {
-    let columns = ['id', 'description'];
-    if (this.selectable) columns.splice(2, 0, 'actions');
-    if (this.quantifiable) columns.splice(2, 0, 'measure', 'unit');
-    return columns;
-  } 
-
   ngOnDestroy(): void {}
+
+  private _getTableColumns(): string[] {
+    let tableColumns: string[] = ['id', 'description'];
+    if (this.selectable) tableColumns.splice(2, 0, 'actions');
+    if (this.quantifiable) tableColumns.splice(2, 0, 'measure', 'unit');
+    return tableColumns;
+  }
 
 }

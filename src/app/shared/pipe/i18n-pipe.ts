@@ -10,8 +10,8 @@ export class I18nPipe implements PipeTransform {
   ) {}
 
   transform(value: any, id: string): any {
-    let translation = this._i18nService.get(id ? id : value);
-    return translation ? translation : value;
+    const translation: string = this._i18nService.get(id || value);
+    return translation || value;
   }
 
 }

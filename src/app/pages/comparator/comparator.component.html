@@ -17,14 +17,14 @@
               <mat-panel-title i18n>Criteria</mat-panel-title>
               <mat-panel-description i18n>Select the food attributes</mat-panel-description>
             </mat-expansion-panel-header>
-            <div *ngFor="let attributeGroup of attributeGroups" class="food-comparison-criteria-group">
-              <mat-checkbox data-criteria-type="group" name="{{ attributeGroup.name }}_group" [(ngModel)]="foodComparisonCriteria[attributeGroup.name + '_group']" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}">
-                {{ attributeGroup.label | i18n:'food-attribute-group-' + attributeGroup.name }}
+            <div *ngFor="let foodAttributeGroup of foodAttributeGroups" class="food-comparison-criteria-group">
+              <mat-checkbox data-criteria-type="group" [attr.data-name]="foodAttributeGroup.name + '_group'" [ngModel]="foodComparisonCriteria[foodAttributeGroup.name + '_group']" (change)="onChangeCriteriaHandler($event)" [ngModelOptions]="{standalone: true}">
+                {{ foodAttributeGroup.label | i18n:'food-attribute-group-' + foodAttributeGroup.name }}
               </mat-checkbox>
               <div class="food-comparison-criteria-items">
-                <div *ngFor="let attribute of attributeGroup.attributes" class="food-comparison-criteria-item">
-                  <mat-checkbox data-criteria-type="item" [attr.data-criteria-group]="attributeGroup.name + '_group'" [attr.name]="attribute.name" [(ngModel)]="foodComparisonCriteria[attribute.name]" (change)="onChangeCriteria($event)" [ngModelOptions]="{standalone: true}">
-                    {{ attribute.label | i18n:'food-attribute-' + attribute.name }}
+                <div *ngFor="let foodAttribute of foodAttributeGroup.attributes" class="food-comparison-criteria-item">
+                  <mat-checkbox data-criteria-type="item" [attr.data-criteria-group]="foodAttributeGroup.name + '_group'" [attr.data-name]="foodAttribute.name" [ngModel]="foodComparisonCriteria[foodAttribute.name]" (change)="onChangeCriteriaHandler($event)" [ngModelOptions]="{standalone: true}">
+                    {{ foodAttribute.label | i18n:'food-attribute-' + foodAttribute.name }}
                   </mat-checkbox>
                 </div>
               </div>
@@ -49,16 +49,16 @@
             </tr>
           </thead>
           <tbody>
-            <ng-container *ngFor="let attributeGroup of attributeGroups">
-              <tr>
-                <td class="group" [attr.colspan]="foodList.length + 1" *ngIf="foodComparisonCriteria[attributeGroup.name + '_group']">
-                  <strong>{{ attributeGroup.label | i18n:'food-attribute-group-' + attributeGroup.name }}</strong>
+            <ng-container *ngFor="let foodAttributeGroup of foodAttributeGroups">
+              <tr *ngIf="foodComparisonCriteria[foodAttributeGroup.name + '_group']">
+                <td class="group" [attr.colspan]="foodList.length + 1">
+                  <strong>{{ foodAttributeGroup.label | i18n:'food-attribute-group-' + foodAttributeGroup.name }}</strong>
                 </td>
               </tr>
-              <ng-container *ngFor="let attribute of attributeGroup.attributes">
-                <tr *ngIf="foodComparisonCriteria[attribute.name]">
-                  <td>{{ attribute.label | i18n:'food-attribute-' + attribute.name }}</td>
-                  <td *ngFor="let food of foodList">{{ food[attribute.name] | foodAttribute:attribute.formatter }}</td>
+              <ng-container *ngFor="let foodAttribute of foodAttributeGroup.attributes">
+                <tr *ngIf="foodComparisonCriteria[foodAttribute.name]">
+                  <td>{{ foodAttribute.label | i18n:'food-attribute-' + foodAttribute.name }}</td>
+                  <td *ngFor="let food of foodList">{{ food[foodAttribute.name] | foodAttribute:foodAttribute.formatter }}</td>
                 </tr>
               </ng-container>
             </ng-container>
