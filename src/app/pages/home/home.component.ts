@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.categories = this._foodCategoryService.getCategories();
     this.foods = this._foodService
       .getFoods()
-      .map(item => ({...item}));
+      .map(item => ({...item} as Food));
 
     this.dataSource = new MatTableDataSource(this.foods);
     this.dataSource.paginator = this.paginator;

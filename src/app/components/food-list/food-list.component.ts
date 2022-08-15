@@ -26,7 +26,7 @@ export class FoodListComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.foods = this._foodService
       .getFoods()
-      .map(item => ({...item}));
+      .map(item => ({...item} as Food));
     this.selectedFoods = this.selectedFoods || [];
     this.tableColumns = this._getTableColumns();
   }
@@ -34,7 +34,7 @@ export class FoodListComponent implements OnInit, OnDestroy {
   addFoodButtonHandler(foodListNgSelect: NgSelectComponent): void {
     if (this.selectedFoodId) {
       const foodIndex: number = this.foods.findIndex(element => element.id === this.selectedFoodId);
-      if (foodIndex !== -1 && this.foods[foodIndex] !== undefined) {
+      if (foodIndex !== -1 && this.foods[foodIndex]) {
         this.foods[foodIndex].disabled = true;
         this.selectedFoods = this.selectedFoods.concat([this.foods[foodIndex]]);
         this.selectedFoodsChange.emit(this.selectedFoods);

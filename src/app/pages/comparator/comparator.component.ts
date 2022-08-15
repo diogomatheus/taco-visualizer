@@ -32,7 +32,7 @@ export class ComparatorComponent implements OnInit, OnDestroy {
     this.foodList = [];
     this.foodAttributeGroups = this._foodAttributeGroupService
       .getFoodAttributeGroups()
-      .map(item => ({...item}));
+      .map(item => ({...item} as FoodAttributeGroup));
     this._buildFoodComparisonCriteria(this.foodAttributeGroups);
   }
 
