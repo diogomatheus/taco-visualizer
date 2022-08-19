@@ -1,0 +1,13 @@
+services:
+  angular:
+    container_name: taco-visualizer-angular
+    image: "taco-visualizer-angular:angular"
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    ports:
+      - 4200:4200
+    volumes:
+      - .:/project
+      - /project/node_modules
