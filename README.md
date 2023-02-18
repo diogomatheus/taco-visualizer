@@ -1,8 +1,6 @@
 # TACO Visualizer
 
-Practical project focused on learning angular platform.
-
-The main objective of this practical project is to disseminate information from the Brazilian Food Composition Table (TACO), offering resources to support nutrition professionals in their daily tasks.
+The main objective of this project is to disseminate information from the Brazilian Food Composition Table (TACO), offering resources to support nutrition professionals in their daily tasks.
 
 ## Main Functionalities
 
