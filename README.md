@@ -17,3 +17,11 @@ The TACO (Brazilian Table of Food Composition) project, coordinated by the Unive
 - Build and start (working directory): docker compose up -d
 - After the application starts, navigate to http://localhost:4200 in your web browser.
 - Stop and remove (working directory): docker compose down
+
+## Code of Conduct
+
+Help us keep the project open and inclusive. Please read and follow our [Code of Conduct][codeofconduct].
+
+**Love Rapid Review UI? Give our repo a star.**
+
+[codeofconduct]: CODE_OF_CONDUCT.md
